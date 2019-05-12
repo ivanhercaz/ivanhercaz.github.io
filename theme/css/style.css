@@ -247,6 +247,22 @@ aside > h2 {
 	background-color: #2980b9;
 }
 
+/*--------Report----------------*/
+
+.report {
+	margin-bottom: 10px;
+}
+
+.report a {
+	/* color: #d50000;*/
+	color: white;
+	font-weight: bold;
+}
+
+.report a:hover {
+	text-decoration: none;
+}
+
 /*--------Categories------------*/
 .categories-bar {
 	overflow: hidden;
