@@ -54,28 +54,30 @@ main section {
   color: #333;
 }
 
-article section .about
+.content article .about
 {
   font-size: 18px;
   color: #444;
   text-align: justify;
 }
 
-article section .blog-post
+section article.blog-post,
+section article.blog-page
 {
-  font-size: 16px;
+  font-size: 12pt;
+	margin: auto 60px auto 60px;
 }
 
 .blog-page {
 	text-align: justify;
 }
 
-.blog-page h1 {
+.blog-page h2, .blog-post h2 {
 	text-align: center;
 	counter-reset: numberingHeader;
 }
 
-.blog-page h2:before {
+.blog-page h3:before, .blog-post h3:before {
 	content: counter(numberingHeader) ". ";
 	counter-increment: numberingHeader;
 }
@@ -269,6 +271,7 @@ aside > h2 {
 	background-color: #2980b9;
 	width: 100%;
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 .categories-bar a {
@@ -283,12 +286,30 @@ aside > h2 {
 	background-color: #328cc7;
 }
 
+/*-------Tags-------------------*/
+
+.tags {
+	margin-top: 10px;
+}
+
+.tag {
+	background: #2980b9;
+	padding: 5px 10px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.tag a {
+	color: white;
+}
+
 footer {
 	width: 50%;
-  margin: auto;
+  margin: 20px auto 20px auto;
+	padding: 10px 30px 10px 30px;
   text-align: center;
-  padding-top: 10px;
-}
+	border-top: 1px dotted gray;
+	}
 
 /*--------Responsive------------*/
 
@@ -320,11 +341,9 @@ footer {
     padding: 1em;
   }
 
-  footer
-  {
+  footer {
     padding: 1em;
-    margin-left: 1em;
-    margin-top: 0;
+    margin: auto;
 	}
 
 	#avatar {
