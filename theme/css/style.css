@@ -56,6 +56,20 @@ article section .blog-post
   font-size: 16px;
 }
 
+.blog-page {
+	text-align: justify;
+}
+
+.blog-page h1 {
+	text-align: center;
+	counter-reset: numberingHeader;
+}
+
+.blog-page h2:before {
+	content: counter(numberingHeader) ". ";
+	counter-increment: numberingHeader;
+}
+
 /* Body */
 body {margin: 0}
 body > article, footer {
@@ -66,7 +80,7 @@ body > article, footer {
   padding: 20px 80px 10px;
 }
 
-article ol
+article ol.posts
 {
   padding-left: 0;
 }
@@ -107,7 +121,8 @@ a:hover { text-decoration: underline; }
 /* Code */
 .highlight pre {
   font-size: 14px;
-  overflow: scroll;
+  overflow: auto;
+  padding: 8px;
 }
 
 /* Sidebar */
@@ -156,7 +171,7 @@ aside > h2 {
 .social
 {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .nav
@@ -165,7 +180,6 @@ aside > h2 {
   margin-left: -30px;
   margin-right: -30px;
   border: 1px solid #328cc7;
-  margin-top: 40px;
 }
 
 .nav > ul > li
@@ -199,6 +213,50 @@ aside > h2 {
   border-bottom: 1px solid #328cc7;
 }
 
+
+.blog_roll_link 
+{
+  display: block;
+  padding: 0.33147rem 0;
+  border-bottom: 3px solid #328cc7;
+} 
+
+/*--------License---------------*/
+.license a {
+	color: white;
+}
+
+.license-text {
+	color: white;
+	background-color: #328cc7;
+}
+
+.license-text:hover {
+	text-decoration: none;
+	background-color: #2980b9;
+}
+
+/*--------Categories------------*/
+.categories-bar {
+	overflow: hidden;
+	background-color: #2980b9;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.categories-bar a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.categories-bar a:hover {
+	background-color: #328cc7;
+}
 
 /*--------Responsive------------*/
 
@@ -238,6 +296,10 @@ aside > h2 {
     width: 50px;
     margin: 10px auto;
   }
+
+	.social {
+		margin-top: 40px;
+	}
 }
 
 img {
