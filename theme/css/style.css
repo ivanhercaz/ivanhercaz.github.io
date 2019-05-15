@@ -122,6 +122,51 @@ article > header {
   border-radius: 5px 5px;
 }
 
+/* Images */
+
+.entry-content img {
+	border: 1px solid #328cc7
+}
+
+.image {
+	padding: 5px;
+	background: #2980b9;
+}
+
+.image-right {
+	float: right;
+	margin-left: 20px;
+}
+
+.image-left {
+	float: left;
+	margin: right: 20px;
+}
+
+.image-centered {
+	text-align: center;
+}
+
+.image figcaption {
+	font-size: smaller;
+	text-align: center;
+	color: white;
+}
+
+/* Blockquotes */
+.question {
+	font-size: bigger;
+}
+
+.question::before {
+	content: "― "
+}
+
+
+.entry-content blockquote {
+	background: #f5f5f5;
+	padding: 5px 30px;
+}
 
 /* Links */;
 a  { color:#1DAEDF; text-decoration:none; }
