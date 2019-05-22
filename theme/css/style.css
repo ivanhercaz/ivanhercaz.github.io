@@ -140,12 +140,17 @@ article > header {
 
 .image-left {
 	float: left;
-	margin: right: 20px;
+	margin-right: 20px;
 }
 
 .image-centered {
 	text-align: center;
 }
+
+.image-noborder {
+	border: 0px !important;
+}
+
 
 .image figcaption {
 	font-size: smaller;
