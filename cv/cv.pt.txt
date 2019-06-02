@@ -1,0 +1,243 @@
+Iván Hernández Cazorla
+
+  ---------------------------------------- ---------------------
+  +34 681 638 290                          ivan@ivanhercaz.com
+  Las Palmas de Gran Canaria, Las Palmas   ivanhercaz.com
+  ---------------------------------------- ---------------------
+
+HISTORIADOR
+
+Humanidades digitais e património cultural - Divulgação e investigação -
+Ferramentas digitais - Dados estruturados, semântica e programação -
+Movimento Wikimedia, Wikipedia, Wikidata e MediaWiki
+
+
+Educação
+
+2013-2017
+
+    LICENCIATURA EM HISTORIA
+
+    Universidad de Las Palmas de Gran Canaria
+
+    Trabalho final: _Legados de Cultura Portuaria en Las Palmas de Gran
+    Canaria. Propuesta de historia cultural: la figura del
+    cambullonero_, tutelado por Daniel Castillo Hidalgo.
+
+
+Experiência
+
+dic 2018
+    GARGOLA. GESTIÓN Y DIFUSIÓN CULTURAL
+    Assistente de arquivo
+
+    Digitalização e documentação de fotografias, e outros tipos de
+    artefactos, do Arquivo de fotografia histórica de Canárias. As
+    tarefas se foram realizadas com equipamento fotográfico preparado
+    para a digitalização, scanners e computadores em os que preparávamos
+    os conjuntos de dados. Para a documentação em linha nós utilizamos o
+    software OaiStore.
+
+mar 2018
+    INSTITUTO DE ANÁLISIS Y APLICACIONES TEXTUALES (IATEXT)
+
+sep 2018
+
+    Curador de dados
+
+    Projecto proposto para o IATEXT com o objectivo de completar a
+    composição do instituto e a produção científica de seus membros,
+    sendo o no membros da instituição, em Wikidata, o maior repositório
+    de dados estruturados livres (domínio público). Foi dividido em dois
+    fases, uma para os investigadores e outra para seus publicações
+    (livros, obras coordenadas, capítulos, artigos, ponencias, etc.).
+    Para ambas foi necessário realizar um processo de compilação e
+    estruturação de dados para a elaboração dos elementos em Wikidata.
+
+    -   Relatório final (em inglês):
+        https://www.wikidata.org/wiki/User:Iván_Hernández_Cazorla/IATEXT
+    -   Relatório final e repositório (em espanhol):
+        https://github.com/ivanhercaz/wikidata-iatext
+
+nov 2017
+    @RCHIVA-T
+
+dic 2017
+
+    Assistente de Arquivo
+
+    Desenvolvimento do projeto «Sistematización de transferencias de
+    archivo» para o Serviço de Política Social do Cabildo de Gran
+    Canaria.
+
+ene 2017
+    UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA
+
+ago 2017
+
+    Bolsista de colaboração
+
+    Em a sucursal de Humanidades da biblioteca da Universidad de Las
+    Palmas de Gran Canaria. Atençao a os estudantes, empréstimo de
+    livros, gestão do catálogo (AbsysNet), manutenção interno da
+    biblioteca (expurgos, organização, etc.) e outras tarefas
+    auxiliares.
+
+nov 2016
+
+    ASSOCIATION OF HISTORY, LITERATURE, SCIENCE AND TECHNOLOGY (AHLIST)
+
+    Membro do equipe
+
+    Membro do comité organizativo do AHLIST Congress 2016 Las Palmas de
+    Gran Canaria: tarefas de assistência a os participantes e
+    assistentes, e cobertura fotográfica.
+
+
+Becas
+
+2017
+
+    WIKIMEDIA ESPAÑA-FUNDAÇÃO WIKIMEDIA
+
+    Bolsita da Wikimedia España para participar na Wikimanía 2017
+    Montreal, Canadá.
+
+
+Habilidades
+
+DADOS
+    Compilação de dados, web semântica, dados estruturados e enlaçados,
+    geodados, Wikidata, OpenStreetMap.
+
+GESTORES
+    MediaWiki, Semantic MediaWiki, Open Journal System, Omeka,
+    Wordpress, Drupal (básico), AbsysNet (básico)
+
+HUMANIDADES
+    Historia cultural, social e marítima, humanidades digitais,
+    interdisciplinar, património cultural, divulgação
+
+IDIOMAS
+    Inglês (alto), português (intermédio)
+
+LINGUAGENS
+    HTML, CSS, Javascript (básico), Python, Bash (básico), SPARQL,
+    Markdown, Wikitexto
+
+SOFTWARE
+    GIMP, Inkscape, RawTherapee, LibreOffice, QGIS, Git y GitHub
+
+OUTRAS HABILIDADES
+    Comunicativa e organizativa, fotografia, redação, _social media_,
+    licencias livres (Creative Commons, ODbL, domínio público, etc.)
+
+
+Publicações
+
+ORCID
+    0000-0002-5436-8535
+
+-   Hernández-Cazorla, I. (2017). _Legados de Cultura Portuaria en Las
+    Palmas de Gran Canaria. Propuesta de estudio de historia cultural:
+    la figura del cambullonero_ (trabajo de fin de grado tutorizado por
+    Daniel Castillo-Hidalgo). Universidad de Las Palmas de Gran Canaria,
+    Las Palmas de Gran Canaria. Disponible en
+    http://acceda.ulpgc.es/handle/10553/25787
+-   Castillo-Hidalgo, D., y Hernández-Cazorla, I (2016). 1956-2016. 60
+    años de historia marítima regional (siglos XIX-XX). Un balance
+    historiográfico. _Coloquio de Historia Canario-Americana_, XXII,
+    1-13. Disponible en: http://hdl.handle.net/10553/25787
+
+
+Cursos e certificados
+
+2017
+
+    _Inglés B1.2_
+
+    Aula de Idiomas de la Universidad de Las Palmas de Gran Canaria
+
+2016
+
+    _Taller de Sistema de Información Geográfica: Introducción a la
+    creación de cartografía básica_
+
+    Liceus
+
+2012
+
+    _Maquetador web - HTML y CSS_
+
+    EscuelaIT
+
+
+Voluntariado
+
+2019
+    ASOCIACIÓN ESPAÑOLA POR EL AVANCE DE LA CIENCIA
+
+atualmente
+    Membro
+
+2015
+    WIKIMEDIA ESPAÑA
+
+atualmente
+
+    Membro.
+
+    Colaboração em projetos de digitalização e de fomento do
+    conhecimento livre; colaboração com o Museu Castelo de Mata (por
+    exemplo, a I editatona de fortificações canárias) e a Biblioteca da
+    Universidad de La Laguna (por exemplo, a I editatona por o dia das
+    escritoras), entre outras colaborações.
+
+2014
+
+    APOCALIPSIS ZOMBIE GRAN CANARIA 2014
+
+    Fotógrafo
+
+    Portfólio disponível em https://flic.kr/s/aHsk58KyWB
+
+2013
+    HAMA LOVER’S
+
+2015
+    Monitor de atividades lúdico-culturais.
+
+
+Outros dados de interesse
+
+-   Contribuidor habitual nos projetos do Movimento Wikimedia.
+    Principalmente em:
+    -   Wikidata, Wikipedia y Wikimedia Commons.
+-   Tradutor de software e projetos livres em TranslateWiki.net, em
+    repositórios de GitHub o em o projeto em si mesmo. Por exemplo:
+    -   Semantic MediaWiki: https://semantic-mediawiki.org
+    -   Generador de Atribución (Lizenzhinweisgenerator):
+        https://generadordeatribucion.org/
+    -   Wikidata: https://wikidata.org/
+-   Repositórios interessantes em GitHub:
+    -   CanaryBot, bot para os projetos Wikimedia:
+        https://github.com/ivanhercaz/CanaryBot
+    -   extractPliego, script para extrair imagens e dados do sitio web
+        da casa de leilões para Wikimedia Commons:
+        https://github.com/ivanhercaz/extractPliego
+    -   Pysemanticmw, paquete e interface de linha de comandos para a
+        API de Semantic MediaWiki:
+        https://github.com/ivanhercaz/pysemanticmw
+    -   Research, repositório em o que organizo minhas presentações,
+        documentos de divulgação e outros recursos:
+        https://github.com/ivanhercaz/research
+
+------------------------------------------------------------------------
+
+  ivan@ivanhercaz.com | +34 681 638 290
+  ivanhercaz.com
+  linkedin.com/in/ivanhercaz
+  Las Palmas de Gran Canaria
+  0000-0002-5436-8535
+
+------------------------------------------------------------------------
