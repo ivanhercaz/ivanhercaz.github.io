@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Curación y estructuración de la producción científica del IATEXT en Wikidata</title>
+
+		<link rel="stylesheet" href="../revealjs/css/reveal.css">
+		<link rel="stylesheet" href="../revealjs/css/theme/solarized.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../revealjs/lib/css/zenburn.css">
+
+		<!-- Little CSS classes -->
+		<style>
+			.small-list li { font-size: 14pt; }
+		</style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../revealjs/css/print/pdf.css' : '../revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h4>Curación y estructuración de la producción científica del IATEXT en Wikidata</h4>
+						<h5 style="font-size: smaller; font-weight: normal;">Wikidata, WikiCite y Scholia como herramientas para elaborar un corpus de datos bibliográficos enlazados</h5>
+						<p>Iván Hernández-Cazorla<br>Gregorio Rodríguez-Herrera<br>Manuel Ramírez-Sánchez</p>
+						<img src="../img/iatext_ulpgc_logo.png" alt="Logo of the IATEXT-ULPGC" style="width: 35%; float: left;" />
+						<br>
+						<img src="../img/cc-by-sa.png" alt="CC-SA-BY" style="width: 12%; float: right"/>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>A bit of history</h4>
+						<img src="../img/wikidata_logo.png" alt="Logo of Wikidata" style="width: 60%" />
+					</section>
+					<section>
+						<img src="../img/wikicite_logo.png" alt="Logo of WikiCite" style="width: 60%" />
+					</section>
+					<section data-background-iframe="https://tools.wmflabs.org/scholia/Q50315478" data-background-interactive>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Wikidata-IATEXT</h3>
+					</section>
+					<section>
+						<h4>Motivation</h4>
+						<p>Open Science and  Open Data</pp>
+						<p>Corpus of linked data</p>
+						<p>&#8595;</p>
+						<div style="column-count: 3">
+							<p style="margin-top: 0">Scientific profiles</p>
+							<p style="padding-top: 10%">&#8596;</p>
+							<p>Bibliographical data</p>
+						</div>
+					</section>
+					<section>
+						<h4>Previous state</h4>
+						<table style="text-align: center">
+							<tr>
+								<td colspan="2" style="text-align: center">Around...</td>
+							</tr>
+							<tr>
+								<td style="vertical-align: middle; width: 50%">4300 research institutes in Wikidata.</td>
+								<td style="vertical-align: middle">86 research institutes with at leat 1 researcher linked with the property «member of» (P463).</td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align: center">25 research institutes with at least 1 publication linked to one of its members.</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h4>Current state</h4>
+						<img src="../img/iatext_pubs_wdqs.png" alt="Number of publications of the IATEXT in Wikidata" />
+						<img src="../img/iatext_members_wdqs.png" alt="Number of members of the IATEXT in Wikidata" />
+					</section>
+					<section data-background-iframe="https://tools.wmflabs.org/scholia/organization/Q27639076" data-background-interactive>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>Methodology</h4>
+						<table>
+							<tr>
+								<td colspan="2" style="text-align: center">Phases</td>
+							</tr>
+							<tr>
+								<td style="vertical-align: middle; width: 50%; text-align: center">Researchers</td>
+								<td style="vertical-align: middle; text-align: center">Publications</td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align: center">Useful and necessary items to link between them and enrich the data</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<table>
+							<tr>
+								<td colspan="3" style="text-align: center">Main sources used as references</td>
+							</tr>
+							<tr>
+								<td style="text-align: center; font-weight: bold">Websites</td>
+								<td style="text-align: center; font-weight: bold">Dialnet</td>
+								<td style="text-align: center; font-weight: bold">Acceda</td>
+							</tr>
+							<tr>
+								<td style="text-align: center;">Mostly lists without a defined structure</td>
+								<td style="text-align: center;">Standarized model.<br>Can't make an automatic extraction</td>
+								<td style="text-align: center;">Potential repository. Weak structure and data</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<h4>Results</h4>
+						<p>Useful tools to get the results:</p>
+						<ul>
+							<li>Listeria and the Wikidata Query Service.</li>
+							<li><a href="https://github.com/ivanhercaz/wikidata-iatext"><code>exporter.py</code></a>, developed script to extract the data in RDF/Turtle. Use <a href="https://github.com/maxlath/wikidata-cli"><code>wikidata-cli</code></a> to perform the queries.</li>
+						</ul>
+						<p>In addition to the previously:</p>
+						<ul>
+							<li>43 429 editions.</li>
+							<li>1689 items edited, from which 1430 created.</li>
+							<li>From the previous number, 1080 are publications by members of the IATEXT.</li>
+					</section>
+					<section data-background-iframe="https://w.wiki/4aj" data-background-interactive>
+					</section>
+				</section>
+				<section>
+					<h4>Conclusions</h4>
+				</section>
+				<section>
+					<section>
+						<h4>Scholia: data visualization of the items inserted to teh bibliographical corpus</h4>
+						<p>All the researchers can be visualized.</p>
+						<p>But there isn't time available to add all the publications.</p>
+						<p>Pretty complete panels for the organization (<a href="https://wikidata.org/wiki/Q27639076"><code>Q27639076</code></a>) and authors.</p>
+						<p>Weaker <em>citations</em> panel for both:<br><strong>Only 7 articles with citations</strong></p>
+					</section>
+					<section>
+						<h5 style="font-size: smaller">About citations</h5>
+						<p>We didn't plan to add citations during this project and we didn't add references.</p>
+						<p>Who linked these items together with <a href="https://wikidata.org/wiki/Property:P2860"><code>P2860</code></a> ("Reference")?</p>
+					</section>
+					<section>
+						<img src="../img/crossref_logo.png" alt="Crossref logo" />
+						<p style="font-size: bigger; font-weight: bold">+</p>
+						<img src="../img/citationgraph_bot_2_request.png" alt="Request of the permission to perform tasks of Citationgraph bot 2 by Harej" />
+					</section>
+					<section data-background-iframe="https://www.wikidata.org/w/index.php?title=Q57392228&diff=776787821&oldid=769039388" data-background-interactive>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>How can this corpus be used?</h4>
+					</section>
+					<section data-background="../img/outline_researcher.png" data-background-size="80%">
+					</section>
+					<section>
+						<img src="../img/citationjs_readme.png" alt="Fragment of citation.js README with its logo" />
+					</section>
+				</section>
+				<section>
+					<p><small>Presentation available in <a href="https://ivanhercaz.com/research/talks">https://ivanhercaz.com/research/talks</a></small></p>
+
+					<p><small>Made with <a href="https://github.com/hakimel/reveal.js">reveal.js</a>
+						(JavaScript framework developed by <a href="https://hakim.se/">Hakim El Hattab</a>).</small></p>
+				</section>
+			</div>
+		</div>
+
+		<script src="../revealjs/lib/js/head.min.js"></script>
+		<script src="../revealjs/js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				slideNumber: true,
+				dependencies: [
+					{ src: '../revealjs/plugin/markdown/marked.js' },
+					{ src: '../revealjs/plugin/markdown/markdown.js' },
+					{ src: '../revealjs/plugin/notes/notes.js', async: true },
+					{ src: '../revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
