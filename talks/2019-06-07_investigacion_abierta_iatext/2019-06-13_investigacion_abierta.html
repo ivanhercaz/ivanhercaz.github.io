@@ -31,8 +31,8 @@
 			<div class="slides">
 				<section>
 					<section>
-						<h4>Curation and structuring of the scientific production of the IATEXT in Wikidata</h4>
-						<h5 style="font-size: smaller; font-weight: normal;">Wikidata, WikiCite and Scholia as tools to elaborate a corpus of linked bibliographic data</h5>
+						<h4>Curación y estructuración de la producción científica del IATEXT en Wikidata</h4>
+						<h5 style="font-size: smaller; font-weight: normal;">Wikidata, WikiCite y Scholia como herramientas para elaborar un corpus de datos bibliográficos enlazados</h5>
 						<p>Iván Hernández-Cazorla<br>Gregorio Rodríguez-Herrera<br>Manuel Ramírez-Sánchez</p>
 						<img src="../img/iatext_ulpgc_logo.png" alt="Logo of the IATEXT-ULPGC" style="width: 35%; float: left;" />
 						<br>
@@ -41,7 +41,7 @@
 				</section>
 				<section>
 					<section>
-						<h4>A bit of history</h4>
+						<h4>Un poco de historia</h4>
 						<img src="../img/wikidata_logo.png" alt="Logo of Wikidata" style="width: 60%" />
 					</section>
 					<section>
@@ -55,33 +55,33 @@
 						<h3>Wikidata-IATEXT</h3>
 					</section>
 					<section>
-						<h4>Motivation</h4>
-						<p>Open Science and  Open Data</pp>
-						<p>Corpus of linked data</p>
+						<h4>Motivación</h4>
+						<p><em>Open Science</em> y <em>Open Data</em></p>
+						<p>Corpus de datos enlazados</p>
 						<p>&#8595;</p>
 						<div style="column-count: 3">
-							<p style="margin-top: 0">Scientific profiles</p>
+							<p style="margin-top: 0">Perfiles científicos</p>
 							<p style="padding-top: 10%">&#8596;</p>
-							<p>Bibliographical data</p>
+							<p>Datos bibliográficos</p>
 						</div>
 					</section>
 					<section>
-						<h4>Previous state</h4>
+						<h4>Estado previo</h4>
 						<table style="text-align: center">
 							<tr>
-								<td colspan="2" style="text-align: center">Around...</td>
+								<td colspan="2" style="text-align: center">En torno a...</td>
 							</tr>
 							<tr>
-								<td style="vertical-align: middle; width: 50%">4300 research institutes in Wikidata.</td>
-								<td style="vertical-align: middle">86 research institutes with at leat 1 researcher linked with the property «member of» (P463).</td>
+								<td style="vertical-align: middle; width: 50%">4300 institutos de investigación en Wikidata.</td>
+								<td style="vertical-align: middle">86 institutos de investigación con al menos 1 investigador enlazado con la propiedad «miembro de» (P463)</td>
 							</tr>
 							<tr>
-								<td colspan="2" style="text-align: center">25 research institutes with at least 1 publication linked to one of its members.</td>
+								<td colspan="2" style="text-align: center">25 institutos universitarios con al menos una publicación enlazada a uno de sus miembros.</td>
 							</tr>
 						</table>
 					</section>
 					<section>
-						<h4>Current state</h4>
+						<h4>Estado actual</h4>
 						<img src="../img/iatext_pubs_wdqs.png" alt="Number of publications of the IATEXT in Wikidata" />
 						<img src="../img/iatext_members_wdqs.png" alt="Number of members of the IATEXT in Wikidata" />
 					</section>
@@ -90,68 +90,68 @@
 				</section>
 				<section>
 					<section>
-						<h4>Methodology</h4>
+						<h4>Metodología</h4>
 						<table>
 							<tr>
 								<td colspan="2" style="text-align: center">Phases</td>
 							</tr>
 							<tr>
-								<td style="vertical-align: middle; width: 50%; text-align: center">Researchers</td>
-								<td style="vertical-align: middle; text-align: center">Publications</td>
+								<td style="vertical-align: middle; width: 50%; text-align: center">Investigaciones</td>
+								<td style="vertical-align: middle; text-align: center">Publicaciones</td>
 							</tr>
 							<tr>
-								<td colspan="2" style="text-align: center">Useful and necessary items to link between them and enrich the data</td>
+								<td colspan="2" style="text-align: center">Elementos útiles y necesarios para enlazar los elementos entre sí y enriquecer los datos</td>
 							</tr>
 						</table>
 					</section>
 					<section>
 						<table>
 							<tr>
-								<td colspan="3" style="text-align: center">Main sources used as references</td>
+								<td colspan="3" style="text-align: center">Fuentes principales usadas como referencias</td>
 							</tr>
 							<tr>
-								<td style="text-align: center; font-weight: bold">Websites</td>
+								<td style="text-align: center; font-weight: bold">Sitios web</td>
 								<td style="text-align: center; font-weight: bold">Dialnet</td>
 								<td style="text-align: center; font-weight: bold">Acceda</td>
 							</tr>
 							<tr>
-								<td style="text-align: center;">Mostly lists without a defined structure</td>
-								<td style="text-align: center;">Standarized model.<br>Can't make an automatic extraction</td>
-								<td style="text-align: center;">Potential repository. Weak structure and data</td>
+								<td style="text-align: center;">Principalmente listas sin una estructura definida.</td>
+								<td style="text-align: center;">Modelo estandarizado.<br>Sin posibilidad de realizar una extracción automática</td>
+								<td style="text-align: center;">Repositorio con potencial. Poca consistencia y fiabilidad de los datos</td>
 							</tr>
 						</table>
 					</section>
 					<section>
-						<h4>Results</h4>
-						<p>Useful tools to get the results:</p>
+						<h4>Resultados</h4>
+						<p>Herramientas útiles para obtener los resultados:</p>
 						<ul>
-							<li>Listeria and the Wikidata Query Service.</li>
-							<li><a href="https://github.com/ivanhercaz/wikidata-iatext"><code>exporter.py</code></a>, developed script to extract the data in RDF/Turtle. Use <a href="https://github.com/maxlath/wikidata-cli"><code>wikidata-cli</code></a> to perform the queries.</li>
+							<li>Listeria y el Wikidata Query Service.</li>
+							<li><a href="https://github.com/ivanhercaz/wikidata-iatext"><code>exporter.py</code></a>, script desarrollado para extraer los datos en RDF/Turtle. Uso de <a href="https://github.com/maxlath/wikidata-cli"><code>wikidata-cli</code></a> para realizar las consultas.</li>
 						</ul>
-						<p>In addition to the previously:</p>
+						<p>Sumado a lo anteriormente mencionado:</p>
 						<ul>
-							<li>43 429 editions.</li>
-							<li>1689 items edited, from which 1430 created.</li>
-							<li>From the previous number, 1080 are publications by members of the IATEXT.</li>
+							<li>43 429 ediciones.</li>
+							<li>1689 elementos editados, de los que 1430 fueron creados.</li>
+							<li>De la cifra anterior, 1080 son publicaciones realizadas por miembros del IATEXT.</li>
 					</section>
 					<section data-background-iframe="https://w.wiki/4aj" data-background-interactive>
 					</section>
 				</section>
 				<section>
-					<h4>Conclusions</h4>
+					<h4>Conclusiones</h4>
 				</section>
 				<section>
 					<section>
-						<h4>Scholia: data visualization of the items inserted to the bibliographical corpus</h4>
-						<p>All the researchers can be visualized.</p>
-						<p>But there isn't time available to add all the publications.</p>
-						<p>Pretty complete panels for the organization (<a href="https://wikidata.org/wiki/Q27639076"><code>Q27639076</code></a>) and authors.</p>
-						<p>Weaker <em>citations</em> panel for both:<br><strong>Only 7 articles with citations</strong></p>
+						<h4>Scholia: visualización de datos de los elementos insertados al corpus bibliográfico</h4>
+						<p>Todos los investigadores pueden ser visualizados.</p>
+						<p>Pero no dio tiempo para añadir todas las publicaciones.</p>
+						<p>Paneles bastante completos para la organización (<a href="https://wikidata.org/wiki/Q27639076"><code>Q27639076</code></a>) y los autores.</p>
+						<p>El panel <em>citations</em> es el más flojo:<br><strong>Solo 7 artículos con citas</strong></p>
 					</section>
 					<section>
-						<h5 style="font-size: smaller">About citations</h5>
-						<p>We didn't plan to add citations during this project and we didn't add references.</p>
-						<p>Who linked these items together with <a href="https://wikidata.org/wiki/Property:P2860"><code>P2860</code></a> ("Reference")?</p>
+						<h5 style="font-size: smaller">Sobre las citas</h5>
+						<p>No se planeó añadir las citas durante este proyecto, por lo que no se añadió su respectiva propiedad.</p>
+						<p>¿Quién enlazó estos elementos entre sí con la <a href="https://wikidata.org/wiki/Property:P2860"><code>P2860</code></a> («Referencia»)?</p>
 					</section>
 					<section>
 						<img src="../img/crossref_logo.png" alt="Crossref logo" />
@@ -163,7 +163,7 @@
 				</section>
 				<section>
 					<section>
-						<h4>How can this corpus be used?</h4>
+						<h4>¿Cómo se puede utilizar este corpus?</h4>
 					</section>
 					<section data-background="../img/outline_researcher.png" data-background-size="80%">
 					</section>
@@ -172,10 +172,10 @@
 					</section>
 				</section>
 				<section>
-					<p><small>Presentation available in <a href="https://ivanhercaz.com/p/talks.html">https://ivanhercaz.com/p/talks.html</a></small></p>
+					<p><small>Presentación disponible en <a href="https://ivanhercaz.com/p/talks.html">https://ivanhercaz.com/p/talks.html</a></small></p>
 
-					<p><small>Made with <a href="https://github.com/hakimel/reveal.js">reveal.js</a>
-						(JavaScript framework developed by <a href="https://hakim.se/">Hakim El Hattab</a>).</small></p>
+					<p><small>Realizada con <a href="https://github.com/hakimel/reveal.js">reveal.js</a>
+						(framework JavaScript desarrollado por <a href="https://hakim.se/">Hakim El Hattab</a>).</small></p>
 				</section>
 			</div>
 		</div>
