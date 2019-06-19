@@ -376,15 +376,12 @@ footer {
 }
 
 .translations li {
+	color: #fff;
 	display: inline-block;
 }
 
 .translations li + li::before {
 	content: " | ";
-}
-
-.translations li:nth-last-child() {
-	content: "";
 }
 
 /*--------Responsive------------*/
@@ -434,6 +431,14 @@ footer {
 
 	.social {
 		margin-top: 40px;
+	}
+	
+	.translations ul {
+		display: block;
+	}
+
+	.translations li + li::before {
+		content: "";
 	}
 }
 
