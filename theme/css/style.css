@@ -376,8 +376,11 @@ footer {
 }
 
 .translations li {
-	color: #fff;
 	display: inline-block;
+}
+
+.translations a {
+	color: #fff;
 }
 
 .translations li + li::before {
