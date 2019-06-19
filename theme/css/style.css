@@ -362,11 +362,11 @@ footer {
 }
 
 .translations {
-	background: red;
+	background: #2980b9;
 	width: 30%;
 	margin: 0 auto;
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: 12px;
 }
 
 .translations ul {
