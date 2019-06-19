@@ -376,13 +376,15 @@ footer {
 }
 
 .translations li {
-	color: #fff !important;
 	display: inline-block;
 }
 
 .translations li + li::before {
 	content: " | ";
 }
+
+.translations li a {
+	color: #fff;
 
 /*--------Responsive------------*/
 
