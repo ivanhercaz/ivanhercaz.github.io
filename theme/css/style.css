@@ -359,7 +359,33 @@ footer {
 	padding: 10px 30px 10px 30px;
   text-align: center;
 	border-top: 1px dotted gray;
-	}
+}
+
+.translations {
+	background: red;
+	width: 30%;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.translations ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.translations li {
+	display: inline-block;
+}
+
+.translations li + li::before {
+	content: " | ";
+}
+
+.translations li:nth-last-child() {
+	content: "";
+}
 
 /*--------Responsive------------*/
 
