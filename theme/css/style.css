@@ -464,6 +464,10 @@ footer {
 	.social {
 		margin-top: 40px;
 	}
+
+	.translations {
+		width: 70%;
+	}
 	
 	.translations li {
 		display: block;
@@ -471,6 +475,10 @@ footer {
 
 	.translations li + li::before {
 		content: "";
+	}
+
+	.translations-notice {
+		width: 70%;
 	}
 }
 
