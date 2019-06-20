@@ -336,6 +336,25 @@ aside > h2 {
 	background-color: #328cc7;
 }
 
+/*-------Under construction-----*/
+.under-construction-bar {
+	overflow: hidden;
+	background-color: #2980b9;
+	width: 100%;
+	text-align: center;
+}
+
+.under-construction-bar a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+.under-construction-bar a:hover {
+	background-color: #328cc7;
+}
+
+
 /*-------Tags-------------------*/
 
 .tags {
@@ -361,9 +380,11 @@ footer {
 	border-top: 1px dotted gray;
 }
 
+/*--------Translations---------*/
+
 .translations {
 	background: #2980b9;
-	width: 30%;
+	width: 25%;
 	margin: 0 auto;
 	padding: 5px;
 	border-radius: 12px;
@@ -385,6 +406,12 @@ footer {
 
 .translations li a {
 	color: #fff;
+}
+
+.translations-notice {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 /*--------Responsive------------*/
