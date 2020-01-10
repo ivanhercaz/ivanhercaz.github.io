@@ -112,6 +112,8 @@ nov 2016
 **ORCID**
 :      [0000-0002-5436-8535](https://orcid.org/0000-0002-5436-8535)
 
+  - Hernández-Cazorla, I., Ramírez-Sánchez, M., Rodríguez-Herrera, G (2019). Wikidata, WikiCite y Scholia como herramientas para un corpus de datos bibliográficos enlazados. Curación y estructuración de la producción científica de los investigadores del IATEXT. *Prisma.com*, 40, 78-87. Disponible en: [http://hdl.handle.net/10553/60056](http://hdl.handle.net/10553/60056)
+  - Ojeda-de-la-Roza, R., Hernández-Cazorla, I (2017). Wikimedia España y la difusión del patrimonio cultural. *Revista PH*, 91, 36-37. Disponible en: [https://accedacris.ulpgc.es/handle/10553/57244](https://accedacris.ulpgc.es/handle/10553/57244)
   - Hernández-Cazorla, I. (2017). *Legados de Cultura Portuaria en Las Palmas de Gran Canaria. Propuesta de estudio de historia cultural: la figura del cambullonero* (trabajo de fin de grado tutorizado por Daniel Castillo-Hidalgo). Universidad de Las Palmas de Gran Canaria, Las Palmas de Gran Canaria. Disponible en [http://acceda.ulpgc.es/handle/10553/25787](http://acceda.ulpgc.es/handle/10553/25787)
   - Castillo-Hidalgo, D., y Hernández-Cazorla, I (2016). 1956-2016. 60 años de historia marítima regional (siglos XIX-XX). Un balance historiográfico. *Coloquio de Historia Canario-Americana*, XXII, 1-13. Disponible en: [http://hdl.handle.net/10553/25787](http://hdl.handle.net/10553/25787)
 
@@ -164,20 +166,6 @@ actualmente
 :     Member.
 
       Collaboration in digitization projects and promoter of the free knowledge: activities in the Museum Castillo de Mata (e.g. the I Edit-a-thon about Canarian fortifications) and the Library of the Universidad de La Laguna (e.g., the edit-a-thon in the day of the female writers), among other.
-
-2014
-:     **Apocalipsis Zombie Gran Canaria 2014**
-
-      Photographer
-
-      Available in [https://flic.kr/s/aHsk58KyWB](https://flic.kr/s/aHsk58KyWB)
-
-2013
-:     **Hama Lover's**
-
-2015
-:      Monitor of playful and cultural activities.
-
 
 ## Scholarship
 
