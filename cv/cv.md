@@ -140,11 +140,27 @@ nov 2016
 
 ## Voluntariado
 
+2020
+:     **tldr-pages**
+
+actualmente
+:     Miembro
+
+      Elaboración de documentación con ejemplos breve y concisa para comandos de diferentes plataforma (Linux, MacOS X, SunOS, Windows, multiplataforma, etcétera). El objetivo del proyecto es redactar páginas que simplifiquen las [*man pages*](https://en.wikipedia.org/wiki/Man_page) (páginas de manual de comandos) tradicionales y sean más fáciles de leer.
+
+2019
+:     **MakersGC**
+
+actualmente
+:     Colaborador
+
+      Colaboración en proyectos del movimiento maker de Gran Canaria. Participación y desarrollo de talleres. Fomento de la cultura *hazlo tú mismo* (DIY, *do it yourself*), elaboración de documentación y tutoriales (por ej., [documentación en español de MicroPython](https://github.com/makersGC/upython), y elaboración de programas y aplicaciones (por ej., [interpretador morse](https://github.com/makersGC/morseinterpreter-micropython) elaborado con MicroPython y probado en placas ESP32/ESP8266).
+
 2015
 :     **Wikimedia España**
 
 actualmente
-:     Miembro.
+:     Miembro
 
       Colaboración en proyectos de digitalización y de fomento del conocimiento libre; colaboración con el Museo Castillo de Mata (por ej., la I editatón de fortificaciones canarias) y la Biblioteca de la Universidad de La Laguna (por ej., la editatón por el día de las escritoras), entre otras colaboraciones.
 
@@ -158,9 +174,10 @@ actualmente
     - Wikidata: [https://wikidata.org/](https://wikidata.org)
   - Repositorios interesantes en GitHub:
     - CanaryBot, bot para los proyectos Wikimedia: [https://github.com/ivanhercaz/CanaryBot](https://github.com/ivanhercaz/CanaryBot)
+    - Buruma, tema que funciona a partir del framework Bulma CSS, diseñado para el gestor de contenidos Pelican: [https://github.com/ivanhercaz/buruma](https://github.com/ivanhercaz/buruma)
     - extractPliego, script para extraer imágenes y datos del sitio web de la casa de subastas Pliego para subirlas a Wikimedia Commons: [https://github.com/ivanhercaz/extractPliego](https://github.com/ivanhercaz/extractPliego)
-    - Pysemanticmw, paquete e interfaz de línea de comandos para la API de Semantic MediaWiki: [https://github.com/ivanhercaz/pysemanticmw](https://github.com/ivanhercaz/pysemanticmw)
-    - Research, repositorio en el que almaceno mis presentaciones, documentos de divulgación y otros recursos: [https://github.com/ivanhercaz/research](https://github.com/ivanhercaz/research)
+    - morseinterpreter-micropython, programa que interpreta cada letra de un texto en sus respectivas pulsaciones en morse. Funciona a partir de leds: [https://github.com/makersGC/morseinterpreter-micropython](https://github.com/makersGC/morseinterpreter-micropython)
+    - ivanhercaz.github.io, repositorio en el que gestiono mi sitio web personal, así como mis presentaciones, documentos de divulgación y otros recursos: [https://github.com/ivanhercaz/ivanhercaz.github.io](https://github.com/ivanhercaz/ivanhercaz.github.io)
 
 ----
 
