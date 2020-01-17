@@ -16,15 +16,23 @@ Humanidades digitales y patrimonio cultural - Divulgación e investigación - He
 
 ## Educación
 
+2019
+:    **Máster en Patrimonio Histórico, Cultural y Natural**
+
+actualmente
+:    Universidad de Las Palmas de Gran Canaria
+
+     Rama de patrimonio cultural.
+
 2013-2017
 :    **Grado en Historia**
 
-      Universidad de Las Palmas de Gran Canaria
+     Universidad de Las Palmas de Gran Canaria
 
 
-      Trabajo de fin de grado: *Legados de Cultura Portuaria en Las Palmas de Gran Canaria. Propuesta de historia cultural: la figura del cambullonero*, tutorizado por Daniel Castillo Hidalgo.
+     Trabajo de fin de grado: *Legados de Cultura Portuaria en Las Palmas de Gran Canaria. Propuesta de historia cultural: la figura del cambullonero*, tutorizado por Daniel Castillo Hidalgo.
 
-      Disponible en Acceda: [http://hdl.handle.net/10553/25787](http://hdl.handle.net/10553/25787)
+     Disponible en Acceda: [http://hdl.handle.net/10553/25787](http://hdl.handle.net/10553/25787)
 
 2011-2013
 :     **Bachillerato de Humanidades**
