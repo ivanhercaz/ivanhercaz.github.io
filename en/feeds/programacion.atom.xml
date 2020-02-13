@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iván Hernández Cazorla - Programación</title><link href="https://ivanhercaz.github.io/en/" rel="alternate"></link><link href="https://ivanhercaz.github.io/feeds/programacion.atom.xml" rel="self"></link><id>https://ivanhercaz.github.io/en/</id><updated>2020-02-13T21:00:00+00:00</updated><entry><title>Plotly.py, establecer por defecto el hovermode de la figura</title><link href="https://ivanhercaz.github.io/en/a/plotly-establecer-defecto-hovermode-figura.html" rel="alternate"></link><published>2020-02-13T21:00:00+00:00</published><updated>2020-02-13T21:00:00+00:00</updated><author><name>ivanhercaz</name></author><id>tag:ivanhercaz.github.io,2020-02-13:/en/a/plotly-establecer-defecto-hovermode-figura.html</id><summary type="html">&lt;p&gt;Plotly.py is a Python library developed by &lt;a href="https://plot.ly"&gt;Plotly&lt;/a&gt; to perform data analysis
+ and data visualizations. This tool, combined with others like &lt;a href="https://pandas.pydata.org"&gt;&lt;code&gt;pandas&lt;/code&gt;&lt;/a&gt;
+ or &lt;a href="https://numpy.org"&gt;&lt;code&gt;NumPy&lt;/code&gt;&lt;/a&gt;, ease the creation of application to make tasks related with
+ the data science, as well many others. This tool is very powerful and it &lt;a href="https://plot.ly/python/reference"&gt;is …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Plotly.py is a Python library developed by &lt;a href="https://plot.ly"&gt;Plotly&lt;/a&gt; to perform data analysis
+ and data visualizations. This tool, combined with others like &lt;a href="https://pandas.pydata.org"&gt;&lt;code&gt;pandas&lt;/code&gt;&lt;/a&gt;
+ or &lt;a href="https://numpy.org"&gt;&lt;code&gt;NumPy&lt;/code&gt;&lt;/a&gt;, ease the creation of application to make tasks related with
+ the data science, as well many others. This tool is very powerful and it &lt;a href="https://plot.ly/python/reference"&gt;is very well
+ está muy bien documentada&lt;/a&gt;. But sometimes, however well documented
+ they are, the configuration of some features or to perform a specific task might be more
+ complex. This has happened to me with the &lt;code&gt;hovermode&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://plot.ly/python/reference/#layout-hovermode"&gt;&lt;code&gt;hovermode&lt;/code&gt;&lt;/a&gt; is an attribute of &lt;code&gt;layout&lt;/code&gt; of a figure created with Plotly.py.
+ In this case, I create the figures with the &lt;code&gt;graph_objects&lt;/code&gt; as follows:&lt;/p&gt;
+&lt;figure class="image is-pulled-right" style="width: 35%"&gt;
+  &lt;img src="../../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly"&gt;
+  &lt;figcaption&gt;Toolbar of Plotly&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;pre&gt;&lt;code&gt;#!python
+import plotly.graph_objects as go
+
+fig = go.Figure()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I am working on a project in which I am using Jupyter Notebooks on the research enviroment of
+ &lt;a href="https://colab.research.google.com/"&gt;Google Colab&lt;/a&gt;. For the data analysis that I am doing I need to create some figures
+ visualize the data. Some of these figures are composed, in some cases, by several bar graphs.
+ When a figure created with Plotly.py is rendered, it has a toolbar very useful. One of this tools
+ (in the screenshot attached above) allows to compare difrentes data from the &lt;code&gt;y&lt;/code&gt; axis for the same
+ item from the &lt;code&gt;x&lt;/code&gt; axis (&lt;a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system"&gt;Cartesian coordinate system&lt;/a&gt;. However,
+ I need this feature activated by default due two reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;For those who consult the analysis notebooks do not have to be activating it.&lt;/li&gt;
+&lt;li&gt;For me to save time checking the data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;But even though I read the &lt;a href="https://plot.ly/python/reference"&gt;documentation&lt;/a&gt; over and over, I didn't get it
+ work it. After several tries, I decided to ask in the forum of the Plotly Community [how to compare
+ data when the mouse is hover the traces by default][plotly-py-foro-pregunta]. And the give me the answer!&lt;/p&gt;
+&lt;p&gt;Perhaps I was very dense that day, but what it is try is that activate this feature is easier than
+ I thought and now, when I read the documentation of &lt;code&gt;hovermode&lt;/code&gt; after this answer, I see it more clear.
+ The solution is to set &lt;code&gt;hovermode="x"&lt;/code&gt;. Let's see an example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;:::python3
+import plotly.graph_objects as go
+
+fig = go.Figure()
+
+fig.add_trace(
+  go.Bar(
+    x=["a", "b", "c"],
+    y=[1, 3, 6]
+  )
+)
+
+fig.add_trace(
+  go.Bar(
+    x=["a", "b", "c"],
+    y=[2, 4, 6]
+  )
+)
+
+fig.update_layout(hovermode="x")
+
+fig.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The results of that code block is the figure attached below:&lt;/p&gt;
+&lt;figure class="image" style="width: 75%"&gt;
+  &lt;img src="../../images/plotly-py_hovermode_x_resultados.png" alt="Figure after the execution of the code written above with the hovermode on x"&gt;
+  &lt;figcaption&gt;Figure after the execution of the code written above with the &lt;code&gt;hovermode&lt;/code&gt; set as &lt;code&gt;x&lt;/code&gt;, which allow to compare both traces.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It may seem silly, but I found it interesting to post it. When I searched in the net 
+ I didn't find a clear answer, thus I hope this entry could be useful for someone with
+ the same doubt than me.&lt;/p&gt;
+&lt;p&gt;Thank you very much Emmanuelle for &lt;a href="https://community.plot.ly/t/compare-data-on-hover-by-default/34894"&gt;helping me to solve this problem&lt;/a&gt;!&lt;/p&gt;</content><category term="Python"></category><category term="Plotly"></category><category term="Plotly.py"></category><category term="gráficos"></category><category term="visualización de datos"></category><category term="análisis de datos"></category></entry></feed>

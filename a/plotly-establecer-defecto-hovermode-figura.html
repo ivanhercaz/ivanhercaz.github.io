@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="author" content="ivanhercaz" />
+			<meta name="twitter:creator" content="@ivanhercaz" />
+		<title>Plotly.py, set by default hovermode of the figure  - Iván Hernández Cazorla
+</title>
+		<link rel="stylesheet" type="text/css" href="https://ivanhercaz.github.io/theme/css/style.min.css">
+		<link rel="stylesheet" type="text/css" href="https://ivanhercaz.github.io/theme/css/pygments.css">
+		<script src="https://ivanhercaz.github.io/theme/js/menu.js"></script>
+	</head>
+	<body>
+		<nav class="navbar is-info" role="navigation" aria-label="main navigation">
+				<div class="navbar-brand">
+						<a class="navbar-item" href="https://ivanhercaz.github.io">
+							<img src="https://ivanhercaz.github.io/theme/images/buruma_logo.png" width="112" height="28">
+						</a>
+					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+				<div id="navbarMain" class="navbar-menu">
+					<div class="navbar-start">
+						<a class="navbar-item" href="/p/acerca-de.html">
+							Acerca de
+						</a>
+						<a class="navbar-item" href="https://ivanhercaz.github.io">
+							Blog
+						</a>
+						<a class="navbar-item" href="/p/recursos.html">
+							Recursos
+						</a>
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link" href="/categories">
+Categorías						</a>
+						<div class="navbar-dropdown">
+							<a class="navbar-item" href="/category/conocimiento-libre.html">
+								Conocimiento libre
+							</a>
+							<a class="navbar-item" href="/category/divulgacion-cientifica.html">
+								Divulgación científica
+							</a>
+							<a class="navbar-item" href="/category/meta.html">
+								Meta
+							</a>
+							<a class="navbar-item" href="/category/programacion.html">
+								Programación
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="buttons">
+								<a class="button is-link" href="/cv/cv.html">Currículum</a>
+								<a class="button is-primary" href="/p/contactar.html">Contactar</a>
+								<a class="button is-warning" href="https://github.com/ivanhercaz/ivanhercaz.github.io/issues">Reportar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</nav>
+		<section class="section">
+			<div class="container">
+<article class="message is-info">
+	<div class="message-header">
+		Plotly.py, set by default hovermode of the figure
+	</div>
+	<div class="message-body has-text-dark">
+		<p>Plotly.py es una biblioteca para Python desarrollada por la empresa
+ <a href="https://plot.ly">Plotly</a> para realizar análisis y visualización de
+ datos. Esta herramienta, combinada con otras como <a href="https://pandas.pydata.org"><code>pandas</code></a>
+ o <a href="https://numpy.org"><code>NumPy</code></a>, facilitan la creación de aplicaciones para la realización
+ de tareas relacionadas con la ciencia de datos, así como muchas otras. Es una herramienta
+ muy potente y <a href="https://plot.ly/python/reference">está muy bien documentada</a>. Sin embargo, en
+ ocasiones, por muy bien documentadas que estén, a veces la configuración de algunas
+ características o realizar una tarea determinada puede ser más complejo. Eso me ha pasado
+ a mí con el <code>hovermode</code>.</p>
+<p><a href="https://plot.ly/python/reference/#layout-hovermode"><code>hovermode</code></a> es un atributo del <code>layout</code> (el diseño o disposición)
+ de una figura creada con Plotly.py. En este caso, creo las figuras con lo que se denomina
+ <code>graph_objects</code> de la siguiente manera:</p>
+<figure class="image is-pulled-right" style="width: 35%">
+  <img src="../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly">
+  <figcaption>Barra de herramientas de Plotly</figcaption>
+</figure>
+
+<pre><code>#!python
+import plotly.graph_objects as go
+
+fig = go.Figure()
+</code></pre>
+<p>Estoy trabajando en un proyecto en el que utilizo cuadernos Jupyter en el entorno de investigación de
+ <a href="https://colab.research.google.com/">Google Colab</a>. Para los análisis que estoy realizando necesito que se visualicen
+ los datos en una serie de figuras. Algunas de esas figuras se componen, en algunos casos,
+ de varios gráficos de barras. Cuando se renderiza la visualización de una figura con Plotly.py,
+ esta tiene una barra de herramientas bastante útil. Una de ellas (señalada en la imagen de 
+ arriba) permite comparar los diferentes datos del eje <code>y</code> para un mismo elemento del eje <code>x</code>
+ (<a href="https://es.wikipedia.org/wiki/Coordenadas_cartesianas">coordenadas cartesianas</a>). Sin embargo, necesitaba que
+ esta característica estuviese activada por defecto por dos razones:</p>
+<ol>
+<li>Para que quienes consulten los cuadernos de análisis no tengan que estar activándola.</li>
+<li>Para que yo mismo ahorrase tiempo comprobando los datos.</li>
+</ol>
+<p>Pero a pesar de que me leí la <a href="https://plot.ly/python/reference">documentación</a> una y otra vez, no
+ conseguía que funcionase. Tras varios intentos, decidí preguntar en el foro de la comunidad
+ Plotly [cómo comparar datos al posar el ratón encima por defecto][plotly-py-foro-pregunta].
+ ¡Y me dieron la respuesta!</p>
+<p>Quizás estaba muy espeso ese día, pero lo que sí es cierto es que resulta que activar esa
+ característica es más fácil de lo que pensaba y ahora, cuando leo la documentación del <code>hovermode</code>
+ tras esta respuesta, lo veo más claro. La solución está en establecer <code>hovermode="x"</code>.
+ Véamos un ejemplo:</p>
+<pre><code>:::python3
+import plotly.graph_objects as go
+
+fig = go.Figure()
+
+fig.add_trace(
+  go.Bar(
+    x=["a", "b", "c"],
+    y=[1, 3, 6]
+  )
+)
+
+fig.add_trace(
+  go.Bar(
+    x=["a", "b", "c"],
+    y=[2, 4, 6]
+  )
+)
+
+fig.update_layout(hovermode="x")
+
+fig.show()
+</code></pre>
+<p>El resultado de ese bloque de código es la figura que vemos en la siguiente imagen:</p>
+<figure class="image" style="width: 75%">
+  <img src="../images/plotly-py_hovermode_x_resultados.png" alt="Figura resultante tras la ejecución del código escrito arriba con el hovermode en x">
+  <figcaption>Figura resultante tras la ejecución del código escrito arriba con <code>hovermode</code> establecido como <code>x</code>, lo que permite comparar ambas trazas.</figcaption>
+</figure>
+
+<p>Puede parecer una bobería, pero me ha parecido interesante publicarlo. Cuando busqué
+ en la red no encontré una respuesta clara, por lo que espero que esta entrada sea de
+ utilidad para quien también se encuentre con esta duda.</p>
+<p>¡Muchas gracias Emmanuelle por <a href="https://community.plot.ly/t/compare-data-on-hover-by-default/34894">ayudarme a resolver este problema</a>!</p>
+	</div>
+</article>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container has-text-centered">
+				<div class="columns">
+					<div class="column">
+							Este sitio web funciona gracias a <a href='https://getpelican.com'>Pelican</a>, un gestor de contenido desarrollado en <a href='https://python.org'>Python</a> y utiliza la plantilla <a href='https://github.com/ivanhercaz/buruma'>Buruma</a>.
+						<p><a href="https://bulma.io">
+							<img src="/theme/images/made_with_bulma.png" alt="Made with Bulma" width="128" height="24">
+						</a></p>
+					</div>
+					<div class="column">
+							<p><a rel='license' href='https://creativecommons.org/licenses/by-sa/4.0/'><img alt='Licencia Creative Commons' style='border-width: 0'src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a><br />Esta obra está bajo una licencia <a rel='license' class='license-text'href='https://creativecommons.org/licenses/by-sa/4.0'>Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.	
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -7,31 +7,16 @@
 			<meta name="author" content="Iván Hernández Cazorla" />
 			<meta name="twitter:creator" content="@ivanhercaz" />
 		<title>Iván Hernández Cazorla</title>
-		<link rel="stylesheet" type="text/css" href="https://ivanhercaz.github.io/theme/css/style.min.css">
-		<script src="https://ivanhercaz.github.io/theme/js/menu.js"></script>
-		<!-- Pending to improve -->
-			<!-- Matomo -->
-<script type="text/javascript">
-    var _paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(["setCookieDomain", "*.ivanhercaz.com"]);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u="//stats.ivanhercaz.com/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
-</script>
-<noscript><p><img src="//stats.ivanhercaz.com/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Matomo Code -->
+		<link rel="stylesheet" type="text/css" href="https://ivanhercaz.github.io/en/theme/css/style.min.css">
+		<link rel="stylesheet" type="text/css" href="https://ivanhercaz.github.io/en/theme/css/pygments.css">
+		<script src="https://ivanhercaz.github.io/en/theme/js/menu.js"></script>
 	</head>
 	<body>
 		<nav class="navbar is-info" role="navigation" aria-label="main navigation">
 				<div class="navbar-brand">
-						<!-- Empty -->
+						<a class="navbar-item" href="https://ivanhercaz.github.io/en">
+							<img src="https://ivanhercaz.github.io/en/theme/images/buruma_logo.png" width="112" height="28">
+						</a>
 					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
 						<span aria-hidden="true"></span>
 						<span aria-hidden="true"></span>
@@ -49,8 +34,24 @@
 						<a class="navbar-item" href="/p/recursos.html">
 							Recursos
 						</a>
-						<a class="navbar-item" href="/categories">
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link" href="/categories">
 Categories						</a>
+						<div class="navbar-dropdown">
+							<a class="navbar-item" href="/category/conocimiento-libre.html">
+								Conocimiento libre
+							</a>
+							<a class="navbar-item" href="/category/divulgacion-cientifica.html">
+								Divulgación científica
+							</a>
+							<a class="navbar-item" href="/category/meta.html">
+								Meta
+							</a>
+							<a class="navbar-item" href="/category/programacion.html">
+								Programación
+							</a>
+						</div>
+					</div>
 				</div>
 				<div class="navbar-end">
 					<div class="navbar-item">
@@ -67,7 +68,7 @@ Categories						</a>
 			<div class="container">
 	<div class="columns">
 		<div class="column">
-			<h1 class="title">Welcome to my personal website!</h1>
+			<h1 class="title">Welcome to Iván Hernández Cazorla!</h1>
 		</div>
 		<div class="column">
 			<p>No te conozco... ¡o quizás sí! Sea como sea, me alegra verte por mi sitio web Espero que aquí encuentres lo que estabas buscando. Y si no lo encuentras, siempre puedes <a href='/p/contactar.html'>contactar conmigo</a>. ¡Será un placer ayudarte en lo que pueda.</p><p>Soy historiador con vocación humanista digital al que le apasiona la tecnología. ¡Me vuelve loco (a bien) aplicar diferentes tecnologías para la gestión y difusión del patrimonio cultural!
@@ -75,6 +76,22 @@ Categories						</a>
 	</div>
 	<div class="container">
 		<h1 class="title">Last entries</h1>
+<article class="message ">
+	<div class="message-header">
+		<p>Programación</p>
+	</div>
+	<div class="message-body">
+		<div class="columns is-multiline">
+			<div class="column is-one-quarter has-text-centered">
+				<p><time itemprop="dateCreated" datetime="2020-02-13T21:00:00+00:00">jue 13 febrero 2020</time></p>
+				<p><a href="https://ivanhercaz.github.io/en/tag/python.html"><span class="tag is-link">Python</span></a> <a href="https://ivanhercaz.github.io/en/tag/plotly.html"><span class="tag is-link">Plotly</span></a> <a href="https://ivanhercaz.github.io/en/tag/plotlypy.html"><span class="tag is-link">Plotly.py</span></a> <a href="https://ivanhercaz.github.io/en/tag/graficos.html"><span class="tag is-link">gráficos</span></a> <a href="https://ivanhercaz.github.io/en/tag/visualizacion-de-datos.html"><span class="tag is-link">visualización de datos</span></a> <a href="https://ivanhercaz.github.io/en/tag/analisis-de-datos.html"><span class="tag is-link">análisis de datos</span></a> </p>
+			</div>
+			<div class="column">
+				<h2 class="is-size-5"><a href="https://ivanhercaz.github.io/en/a/plotly-establecer-defecto-hovermode-figura.html">Plotly.py, establecer por defecto el hovermode de la figura</a></h2>
+<p class="has-text-dark">Plotly.py is a Python library developed by Plotly to perform data analysis and data visualizations. It is very well documented, but sometimes there are some features not very clear, for example how to set by default the <code>hovermode</code>, the feature that allow to compare a figure with more than one trace when you have the mouse over the traces.</p>			</div>
+		</div>
+	</div>
+</article>
 <article class="message is-success">
 	<div class="message-header">
 		<p>Divulgación científica</p>
@@ -136,22 +153,6 @@ Categories						</a>
 			<div class="column">
 				<h2 class="is-size-5"><a href="https://ivanhercaz.github.io/en/a/wikipedia-demonizacion-ambito-educativo.html">Wikipedia y su demonización en el ámbito educativo</a></h2>
 <p class="has-text-dark">Siempre he escuchado a muchos docentes, de cualquier ámbito educativo (secundaria, bachillerato y de estudios superiores), advertir a sus alumnos de uno de los grandes males de internet: Wikipedia. Pero, ¿por qué se demoniza el proyecto? ¿No se debería enseñar a ser críticos con todo aquello que leamos?</p>			</div>
-		</div>
-	</div>
-</article>
-<article class="message is-warning">
-	<div class="message-header">
-		<p>Meta</p>
-	</div>
-	<div class="message-body">
-		<div class="columns is-multiline">
-			<div class="column is-one-quarter has-text-centered">
-				<p><time itemprop="dateCreated" datetime="2016-03-01T06:00:00+00:00">mar 01 marzo 2016</time></p>
-				<p><a href="https://ivanhercaz.github.io/en/tag/acerca-de-mi.html"><span class="tag is-link">acerca de mí</span></a> <a href="https://ivanhercaz.github.io/en/tag/blog.html"><span class="tag is-link">blog</span></a> </p>
-			</div>
-			<div class="column">
-				<h2 class="is-size-5"><a href="https://ivanhercaz.github.io/en/a/declaracion-de-intenciones.html">Declaración de intenciones</a></h2>
-<p class="has-text-dark">¡Una nueva aventura! Siempre es emocionante volver a escribir entradas para un blog personal. Desconozco cuál será su futuro y que es lo que le depara a este blog. Espero poder publicar todo lo que pueda ser interesante, siempre que esté dentro de mis posibilidades (principalmente temporales).</p>			</div>
 		</div>
 	</div>
 </article>
