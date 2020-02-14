@@ -11,14 +11,11 @@
  complex. This has happened to me with the &lt;code&gt;hovermode&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://plot.ly/python/reference/#layout-hovermode"&gt;&lt;code&gt;hovermode&lt;/code&gt;&lt;/a&gt; is an attribute of &lt;code&gt;layout&lt;/code&gt; of a figure created with Plotly.py.
  In this case, I create the figures with the &lt;code&gt;graph_objects&lt;/code&gt; as follows:&lt;/p&gt;
-&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
-2
-3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;plotly.graph_objects&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;go&lt;/span&gt;
+&lt;pre&gt;&lt;code&gt;#!python3
+import plotly.graph_objects as go
 
-&lt;span class="n"&gt;fig&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;go&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Figure&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
+fig = go.Figure()
+&lt;/code&gt;&lt;/pre&gt;
 &lt;figure class="image is-pulled-right" style="width: 35%"&gt;
   &lt;img src="../../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly"&gt;
   &lt;figcaption&gt;Toolbar of Plotly&lt;/figcaption&gt;
@@ -41,50 +38,29 @@
 &lt;p&gt;Perhaps I was very dense that day, but what it is try is that activate this feature is easier than
  I thought and now, when I read the documentation of &lt;code&gt;hovermode&lt;/code&gt; after this answer, I see it more clear.
  The solution is to set &lt;code&gt;hovermode="x"&lt;/code&gt;. Let's see an example:&lt;/p&gt;
-&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;plotly.graph_objects&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;go&lt;/span&gt;
+&lt;pre&gt;&lt;code&gt;#!python3
+import plotly.graph_objects as go
 
-&lt;span class="n"&gt;fig&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;go&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Figure&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+fig = go.Figure()
 
-&lt;span class="n"&gt;fig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_trace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
-  &lt;span class="n"&gt;go&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Bar&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
-    &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;c&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
-    &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-  &lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="p"&gt;)&lt;/span&gt;
+fig.add_trace(
+  go.Bar(
+    x=["a", "b", "c"],
+    y=[1, 3, 6]
+  )
+)
 
-&lt;span class="n"&gt;fig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_trace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
-  &lt;span class="n"&gt;go&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Bar&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
-    &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;c&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
-    &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-  &lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="p"&gt;)&lt;/span&gt;
+fig.add_trace(
+  go.Bar(
+    x=["a", "b", "c"],
+    y=[2, 4, 6]
+  )
+)
 
-&lt;span class="n"&gt;fig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;update_layout&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hovermode&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;x&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+fig.update_layout(hovermode="x")
 
-&lt;span class="n"&gt;fig&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
+fig.show()
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The results of that code block is the figure attached below:&lt;/p&gt;
 &lt;figure class="image" style="width: 75%"&gt;
   &lt;img src="../../images/plotly-py_hovermode_x_resultados.png" alt="Figure after the execution of the code written above with the hovermode on x"&gt;
