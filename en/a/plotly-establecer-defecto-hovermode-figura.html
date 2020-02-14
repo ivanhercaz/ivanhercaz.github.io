@@ -82,11 +82,14 @@ Categories						</a>
  complex. This has happened to me with the <code>hovermode</code>.</p>
 <p><a href="https://plot.ly/python/reference/#layout-hovermode"><code>hovermode</code></a> is an attribute of <code>layout</code> of a figure created with Plotly.py.
  In this case, I create the figures with the <code>graph_objects</code> as follows:</p>
-<pre><code>#!python3
-import plotly.graph_objects as go
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
 
-fig = go.Figure()
-</code></pre>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+</pre></div>
+</td></tr></table>
+
 <figure class="image is-pulled-right" style="width: 35%">
   <img src="../../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly">
   <figcaption>Toolbar of Plotly</figcaption>
@@ -109,29 +112,50 @@ fig = go.Figure()
 <p>Perhaps I was very dense that day, but what it is try is that activate this feature is easier than
  I thought and now, when I read the documentation of <code>hovermode</code> after this answer, I see it more clear.
  The solution is to set <code>hovermode="x"</code>. Let's see an example:</p>
-<pre><code>#!python3
-import plotly.graph_objects as go
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
 
-fig = go.Figure()
+<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
 
-fig.add_trace(
-  go.Bar(
-    x=["a", "b", "c"],
-    y=[1, 3, 6]
-  )
-)
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span>
+  <span class="n">go</span><span class="o">.</span><span class="n">Bar</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">],</span>
+    <span class="n">y</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+  <span class="p">)</span>
+<span class="p">)</span>
 
-fig.add_trace(
-  go.Bar(
-    x=["a", "b", "c"],
-    y=[2, 4, 6]
-  )
-)
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span>
+  <span class="n">go</span><span class="o">.</span><span class="n">Bar</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">],</span>
+    <span class="n">y</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+  <span class="p">)</span>
+<span class="p">)</span>
 
-fig.update_layout(hovermode="x")
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">hovermode</span><span class="o">=</span><span class="s2">&quot;x&quot;</span><span class="p">)</span>
 
-fig.show()
-</code></pre>
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</td></tr></table>
+
 <p>The results of that code block is the figure attached below:</p>
 <figure class="image" style="width: 75%">
   <img src="../../images/plotly-py_hovermode_x_resultados.png" alt="Figure after the execution of the code written above with the hovermode on x">
