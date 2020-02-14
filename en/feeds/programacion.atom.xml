@@ -16,7 +16,7 @@
   &lt;figcaption&gt;Toolbar of Plotly&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;pre&gt;&lt;code&gt;#!python
+&lt;pre&gt;&lt;code&gt;#!python3
 import plotly.graph_objects as go
 
 fig = go.Figure()
@@ -38,7 +38,7 @@ fig = go.Figure()
 &lt;p&gt;Perhaps I was very dense that day, but what it is try is that activate this feature is easier than
  I thought and now, when I read the documentation of &lt;code&gt;hovermode&lt;/code&gt; after this answer, I see it more clear.
  The solution is to set &lt;code&gt;hovermode="x"&lt;/code&gt;. Let's see an example:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;:::python3
+&lt;pre&gt;&lt;code&gt;#!python3
 import plotly.graph_objects as go
 
 fig = go.Figure()
