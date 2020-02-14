@@ -39,7 +39,7 @@ fig = go.Figure()
 &lt;/ol&gt;
 &lt;p&gt;Pero a pesar de que me leí la &lt;a href="https://plot.ly/python/reference"&gt;documentación&lt;/a&gt; una y otra vez, no
  conseguía que funcionase. Tras varios intentos, decidí preguntar en el foro de la comunidad
- Plotly [cómo comparar datos al posar el ratón encima por defecto][plotly-py-foro-pregunta].
+ Plotly &lt;a href="https://community.plot.ly/t/compare-data-on-hover-by-default/34894"&gt;cómo comparar datos al posar el ratón encima por defecto&lt;/a&gt;.
  ¡Y me dieron la respuesta!&lt;/p&gt;
 &lt;p&gt;Quizás estaba muy espeso ese día, pero lo que sí es cierto es que resulta que activar esa
  característica es más fácil de lo que pensaba y ahora, cuando leo la documentación del &lt;code&gt;hovermode&lt;/code&gt;

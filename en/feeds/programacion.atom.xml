@@ -33,8 +33,8 @@ fig = go.Figure()
 &lt;li&gt;For me to save time checking the data.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;But even though I read the &lt;a href="https://plot.ly/python/reference"&gt;documentation&lt;/a&gt; over and over, I didn't get it
- work it. After several tries, I decided to ask in the forum of the Plotly Community [how to compare
- data when the mouse is hover the traces by default][plotly-py-foro-pregunta]. And the give me the answer!&lt;/p&gt;
+ work it. After several tries, I decided to ask in the forum of the Plotly Community &lt;a href="https://community.plot.ly/t/compare-data-on-hover-by-default/34894"&gt;how to compare
+ data when the mouse is hover the traces by default&lt;/a&gt;. And the give me the answer!&lt;/p&gt;
 &lt;p&gt;Perhaps I was very dense that day, but what it is try is that activate this feature is easier than
  I thought and now, when I read the documentation of &lt;code&gt;hovermode&lt;/code&gt; after this answer, I see it more clear.
  The solution is to set &lt;code&gt;hovermode="x"&lt;/code&gt;. Let's see an example:&lt;/p&gt;
