@@ -82,21 +82,21 @@ Categories						</a>
  complex. This has happened to me with the <code>hovermode</code>.</p>
 <p><a href="https://plot.ly/python/reference/#layout-hovermode"><code>hovermode</code></a> is an attribute of <code>layout</code> of a figure created with Plotly.py.
  In this case, I create the figures with the <code>graph_objects</code> as follows:</p>
-<figure class="image is-pulled-right" style="width: 35%">
-  <img src="../../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly">
-  <figcaption>Toolbar of Plotly</figcaption>
-</figure>
-
 <pre><code>#!python3
 import plotly.graph_objects as go
 
 fig = go.Figure()
 </code></pre>
+<figure class="image is-pulled-right" style="width: 35%">
+  <img src="../../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly">
+  <figcaption>Toolbar of Plotly</figcaption>
+</figure>
+
 <p>I am working on a project in which I am using Jupyter Notebooks on the research enviroment of
  <a href="https://colab.research.google.com/">Google Colab</a>. For the data analysis that I am doing I need to create some figures
  visualize the data. Some of these figures are composed, in some cases, by several bar graphs.
  When a figure created with Plotly.py is rendered, it has a toolbar very useful. One of this tools
- (in the screenshot attached above) allows to compare difrentes data from the <code>y</code> axis for the same
+ (in the screenshot attached to the right) allows to compare difrentes data from the <code>y</code> axis for the same
  item from the <code>x</code> axis (<a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system">Cartesian coordinate system</a>. However,
  I need this feature activated by default due two reasons:</p>
 <ol>

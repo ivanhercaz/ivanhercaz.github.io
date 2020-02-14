@@ -85,22 +85,22 @@ Categorías						</a>
 <p><a href="https://plot.ly/python/reference/#layout-hovermode"><code>hovermode</code></a> es un atributo del <code>layout</code> (el diseño o disposición)
  de una figura creada con Plotly.py. En este caso, creo las figuras con lo que se denomina
  <code>graph_objects</code> de la siguiente manera:</p>
-<figure class="image is-pulled-right" style="width: 35%">
-  <img src="../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly">
-  <figcaption>Barra de herramientas de Plotly</figcaption>
-</figure>
-
 <pre><code>#!python3
 import plotly.graph_objects as go
 
 fig = go.Figure()
 </code></pre>
+<figure class="image is-pulled-right" style="width: 35%">
+  <img src="../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly">
+  <figcaption>Barra de herramientas de Plotly</figcaption>
+</figure>
+
 <p>Estoy trabajando en un proyecto en el que utilizo cuadernos Jupyter en el entorno de investigación de
  <a href="https://colab.research.google.com/">Google Colab</a>. Para los análisis que estoy realizando necesito que se visualicen
  los datos en una serie de figuras. Algunas de esas figuras se componen, en algunos casos,
  de varios gráficos de barras. Cuando se renderiza la visualización de una figura con Plotly.py,
  esta tiene una barra de herramientas bastante útil. Una de ellas (señalada en la imagen de 
- arriba) permite comparar los diferentes datos del eje <code>y</code> para un mismo elemento del eje <code>x</code>
+ la derecha) permite comparar los diferentes datos del eje <code>y</code> para un mismo elemento del eje <code>x</code>
  (<a href="https://es.wikipedia.org/wiki/Coordenadas_cartesianas">coordenadas cartesianas</a>). Sin embargo, necesitaba que
  esta característica estuviese activada por defecto por dos razones:</p>
 <ol>

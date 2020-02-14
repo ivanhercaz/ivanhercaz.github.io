@@ -11,21 +11,21 @@
  complex. This has happened to me with the &lt;code&gt;hovermode&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://plot.ly/python/reference/#layout-hovermode"&gt;&lt;code&gt;hovermode&lt;/code&gt;&lt;/a&gt; is an attribute of &lt;code&gt;layout&lt;/code&gt; of a figure created with Plotly.py.
  In this case, I create the figures with the &lt;code&gt;graph_objects&lt;/code&gt; as follows:&lt;/p&gt;
-&lt;figure class="image is-pulled-right" style="width: 35%"&gt;
-  &lt;img src="../../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly"&gt;
-  &lt;figcaption&gt;Toolbar of Plotly&lt;/figcaption&gt;
-&lt;/figure&gt;
-
 &lt;pre&gt;&lt;code&gt;#!python3
 import plotly.graph_objects as go
 
 fig = go.Figure()
 &lt;/code&gt;&lt;/pre&gt;
+&lt;figure class="image is-pulled-right" style="width: 35%"&gt;
+  &lt;img src="../../images/plotly-py_barra_herramientas_visualizacion.png" alt="Barra de herramientas de Plotly"&gt;
+  &lt;figcaption&gt;Toolbar of Plotly&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;I am working on a project in which I am using Jupyter Notebooks on the research enviroment of
  &lt;a href="https://colab.research.google.com/"&gt;Google Colab&lt;/a&gt;. For the data analysis that I am doing I need to create some figures
  visualize the data. Some of these figures are composed, in some cases, by several bar graphs.
  When a figure created with Plotly.py is rendered, it has a toolbar very useful. One of this tools
- (in the screenshot attached above) allows to compare difrentes data from the &lt;code&gt;y&lt;/code&gt; axis for the same
+ (in the screenshot attached to the right) allows to compare difrentes data from the &lt;code&gt;y&lt;/code&gt; axis for the same
  item from the &lt;code&gt;x&lt;/code&gt; axis (&lt;a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system"&gt;Cartesian coordinate system&lt;/a&gt;. However,
  I need this feature activated by default due two reasons:&lt;/p&gt;
 &lt;ol&gt;
