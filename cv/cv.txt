@@ -5,7 +5,7 @@ Iván Hernández Cazorla
   Las Palmas de Gran Canaria, Las Palmas   ivanhercaz.com
   ---------------------------------------- ---------------------
 
-HISTORIADOR
+HUMANISTA DIGITAL
 
 Humanidades digitales y patrimonio cultural - Divulgación e
 investigación - Herramientas digitales - Datos estructurados, semántica
@@ -35,20 +35,17 @@ actualmente
 
     Disponible en Acceda: http://hdl.handle.net/10553/25787
 
-2011-2013
-
-    BACHILLERATO DE HUMANIDADES
-
-    IES Pérez Galdós
-
-2007-2011
-
-    EDUCACIÓN SECUNDARIA OBLIGATORIA
-
-    IES El Rincón
-
 
 Experiencia
+
+2018
+    CORUJA DIGITAL · AUTÓNOMO
+    Director de proyectos
+
+    Dirección de proyectos. Se ofrecen diferentes servicios relacionados
+    con las tecnologías de la información, la gestión, la comunicación y
+    la difusión del patrimonio cultural, las humanidades digitales y la
+    ciencia abierta.Véase https://corujadigital.tech/clientes.html.
 
 dic 2018
     GARGOLA. GESTIÓN Y DIFUSIÓN CULTURAL

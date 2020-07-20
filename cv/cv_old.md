@@ -9,7 +9,7 @@ lang: es
 | Las Palmas de Gran Canaria, Las Palmas | ivanhercaz.com  |
 
 <div style="text-align: center; margin-top: 20px">
-**Humanista digital**
+**Historiador**
 
 Humanidades digitales y patrimonio cultural - Divulgación e investigación - Herramientas digitales - Datos estructurados, semántica y programación - Movimiento Wikimedia, Wikipedia, Wikidata y MediaWiki.
 </div>
@@ -34,16 +34,21 @@ actualmente
 
      Disponible en Acceda: [http://hdl.handle.net/10553/25787](http://hdl.handle.net/10553/25787)
 
+2011-2013
+:     **Bachillerato de Humanidades**
+
+      IES Pérez Galdós
+
+2007-2011
+:     **Educación Secundaria Obligatoria**
+
+      IES El Rincón
+
 ## Experiencia
-
-2018
-:     **Coruja Digital · Autónomo**
-:     Director de proyectos
-
-      Dirección de proyectos. Se ofrecen diferentes servicios relacionados con las tecnologías de la información, la gestión, la comunicación y la difusión del patrimonio cultural, las humanidades digitales y la ciencia abierta.<br>Véase <https://corujadigital.tech/clientes.html>.
 
 dic 2018
 :     **Gargola. Gestión y Difusión Cultural**
+
 :     Auxiliar de archivo
 
       Digitalización y documentación de fotografías, y otros tipos de artefactos, del Archivo de fotografía histórica de Canarias. Las tareas se realizaban con equipos fotográficos preparados para la digitalización, escáneres y ordenadores en los que preparábamos los conjuntos de datos. Para la digitalización en línea utilizábamos el software OaiStore.
