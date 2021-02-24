@@ -25,7 +25,9 @@ echo "Generating PDF..."
 # This changes the background color of the body in style.css from grey to white
 # before to convert the HTML in to PDF.
 sed -i "s#f2f2f2#fff#g" style.css
-wkhtmltopdf $TO.html $TO.pdf
+#~/Descargas/wkhtmltopdf-0.12.6/wkhtmltox/bin/wkhtmltopdf $TO.html --enable-local-file-access --load-error-handling ignore $TO.pdf
+wkhtmltopdf $TO.html --enable-local-file-access --load-error-handling ignore $TO.pdf
+
 # After conversion to PDF, change again the style.css
 sed -i "s#fff#f2f2f2#g" style.css
 # Adding top menu
