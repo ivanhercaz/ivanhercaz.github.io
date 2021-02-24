@@ -16,27 +16,33 @@ I am interested in digital humanities and in cultural heritage, mainly in how th
 
 ## Education
 
+2019-2020
+:    **Historical, Cultural and Natural Heritage Master**
+
+     Universidad de Las Palmas de Gran Canaria
+
+     Final master project: *Estado del conocimiento libre sobre el patrimonio cultural de Canarias en Wikipedia, Wikimedia Commons y Wikidata. Los Bienes de Interés Cultural de Canarias en los Proyectos Wikimedia*, tutored by Dr. Manuel Ramírez Sánchez.
+
+     Pending to upload to Acceda.
+
 2013-2017
 :    **History Degree**
 
       Universidad de Las Palmas de Gran Canaria
 
 
-      Final degree project: *Legados de Cultura Portuaria en Las Palmas de Gran Canaria. Propuesta de historia cultural: la figura del cambullonero*, tutored by Daniel Castillo Hidalgo.
+      Final degree project: *Legados de Cultura Portuaria en Las Palmas de Gran Canaria. Propuesta de historia cultural: la figura del cambullonero*, tutored by Dr. Daniel Castillo Hidalgo.
 
       Available in Acceda: [http://hdl.handle.net/10553/25787](http://hdl.handle.net/10553/25787)
 
-2011-2013
-:     **Humanities at A Levels**
-
-      IES Pérez Galdós
-
-2007-2011
-:     **Compulsory Secondary Education**
-
-      IES El Rincón
-
 ## Experience
+
+2018
+:     **Coruja Digital - Autónomo**
+
+actualmente
+:     Director de proyectos
+      Project management. We offered different services related to information technologies, management, communication and dissemination of cultural heritage, digital humanities and open science.<br>See also: https://corujadigital.tech/clientes.html
 
 dec 2018
 :     **Gargola. Gestión y Difusión Cultural**
@@ -89,7 +95,7 @@ nov 2016
 :      Data curation, semantic web, structured and linked data, geodata, Wikidata, OpenStreetMap
 
 **Content Management Systems**
-:      MediaWiki, Semantic MediaWiki, Open Journal System, Omeka, Wordpress, Drupal (basic), AbsysNet (basic), OaiStore
+:      MediaWiki, Semantic MediaWiki, Open Journal System, Omeka, Wordpress, Drupal (basic), AbsysNet (basic)
 
 **Humanities**
 :      Cultural, social and maritime history, digital humanities, interdisciplinary research, cultural heritage, dissemination
@@ -101,7 +107,7 @@ nov 2016
 :      HTML, CSS, Javascript (basic), Python, Bash (basic), SPARQL, Markdown, Wikitexto
 
 **Software**
-:      GIMP, Inkscape, RawTherapee, LibreOffice, QGIS, Git, G itHub
+:      GIMP, Inkscape, RawTherapee, LibreOffice, QGIS, Git, GitHub
 
 **Other skills**
 :      Communication and organization, photography, redaction, social media, free licenses (Creative Commons, ODbL, public domain, etc.)
@@ -129,29 +135,6 @@ nov 2016
 
       Liceus
 
-      *IX Curso de Historia de las Relaciones Internacionales: «Europa tras el fin de la Guerra Fría»*
-
-      Casa-Museo León y Castillo
-
-2015
-:     *VIII Curso de Historia de las Relaciones Internacionales: «La caída del Muro: el fin del mundo bipolar»*
-
-      Casa-Museo León y Castillo
-
-2014
-:     *VII Curso de Historia de las Relaciones Internacionales : «La Primera Guerra Mundial: la hecatombe internacional»*
-
-      Casa-Museo León y Castillo
-
-      *VIII Seminario de Historia Antigua. Adivinación y Astrología en el Mundo Antiguo*
-
-      Fundación Mapfre-Guanarteme
-
-2013
-:     *Azúcar y Mecenazgo en Gran Canaria: El oro de las Islas, siglos XV-XVI*
-
-      Casa de Colón
-
 2012
 :     *Maquetador web - HTML y CSS*
 
@@ -159,11 +142,27 @@ nov 2016
 
 ## Voluntariado
 
+2020
+:     **tldr-pages**
+
+actualmente
+:     Member
+
+      Preparation of documentation with brief and concise examples for commands in different platforms (Linux, MacOS X, SunOS, Windows, etc.). The goal of the project is to write documentation more simplified and easier to read than the traditional man pages.
+
+2019
+:     **MakersGC**
+
+actualmente
+:     Colaborator
+
+      Colaboration in projects of the makers movement in Gran Canaria. Participation and development of workshops. Promotion of the idea *Do It Yourself* (DIY), making documentation and tutorials (e.g. [https://github.com/makersGC/upython MicroPython documentation in Spanish), and development of programs and applications (e.g. [https://github.com/makersGC/morseinterpreter-micropython morse interpreter] with MicroPython, tested with ESP32/ESP8266).
+
 2015
 :     **Wikimedia España**
 
 actualmente
-:     Member.
+:     Member
 
       Collaboration in digitization projects and promoter of the free knowledge: activities in the Museum Castillo de Mata (e.g. the I Edit-a-thon about Canarian fortifications) and the Library of the Universidad de La Laguna (e.g., the edit-a-thon in the day of the female writers), among other.
 
@@ -184,14 +183,18 @@ actualmente
     - Wikidata: [https://wikidata.org/](https://wikidata.org)
   - Interesting repositories in GitHub:
     - CanaryBot, bot to work in the Wikimedia projects: [https://github.com/ivanhercaz/CanaryBot](https://github.com/ivanhercaz/CanaryBot)
+    - Buruma, theme based on Bulma CSS for Pelican: [https://github.com/ivanhercaz/buruma](https://github.com/ivanhercaz/buruma)
     - extractPliego, script to extract images and data from the website of auction house Pliego to upload them to Wikimedia Commons: [https://github.com/ivanhercaz/extractPliego](https://github.com/ivanhercaz/extractPliego)
-    - Pysemanticmw, paquete e interfaz de línea de comandos para la API de Semantic MediaWiki: [https://github.com/ivanhercaz/pysemanticmw](https://github.com/ivanhercaz/pysemanticmw)
-    - Research, repositorio en el que almaceno mis presentaciones, documentos de divulgación y otros recursos: [https://github.com/ivanhercaz/research](https://github.com/ivanhercaz/research)
+    - morseinterpreter-micropython, program that interpret each letter of a text in Morse. Works with leds: https://github.com/makersGC/morseinterpreter-micropython
+    - Coruja-Digital/corujadigital.tech, repository in which I manage the website of Coruja Digital and resources made for different projects: [https://github.com/Coruja-Digital/corujadigital.tech](https://github.com/Coruja-Digital/corujadigital.tech)
+    - ivanhercaz.github.io, repository in which I manage my personal website, my presentations, dissemination documents and another resources: [https://github.com/ivanhercaz/ivanhercaz.github.io](https://github.com/ivanhercaz/ivanhercaz.github.io)
 
 ----
 
 >	ivan@ivanhercaz.com | +34 681 638 290 \
+> [corujadigital.tech](https://corujadigital.tech) \
 > [ivanhercaz.com](https://ivanhercaz.com) \
+> [linkedin.com/in/ivanhercaz](https://linkedin.com/in/ivanhercaz) \
 > Las Palmas de Gran Canaria \
 > [0000-0002-5436-8535](https://orcid.org/0000-0002-5436-8535)
 

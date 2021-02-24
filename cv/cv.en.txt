@@ -5,7 +5,7 @@ Iván Hernández Cazorla
   Las Palmas de Gran Canaria, Las Palmas   ivanhercaz.com
   ---------------------------------------- ---------------------
 
-HISTORIAN AND INTERESTED IN DIGITAL HUMANITIES
+Historian and interested in digital humanities
 
 I am interested in digital humanities and in cultural heritage, mainly
 in how the digital tools might improved the knowledge dissemination and
@@ -15,38 +15,47 @@ history, as well as how the Wikimedia projects, specifically Wikidata,
 can contribute to improve the scientific knowledge and the study of the
 humanities and the cultural heritage.
 
-
 Education
 
-2013-2017
+2019-2020
 
-    HISTORY DEGREE
+    Historical, Cultural and Natural Heritage Master
 
     Universidad de Las Palmas de Gran Canaria
 
-    Final degree project: _Legados de Cultura Portuaria en Las Palmas de
+    Final master project: Estado del conocimiento libre sobre el
+    patrimonio cultural de Canarias en Wikipedia, Wikimedia Commons y
+    Wikidata. Los Bienes de Interés Cultural de Canarias en los
+    Proyectos Wikimedia, tutored by Dr. Manuel Ramírez Sánchez.
+
+    Pending to upload to Acceda.
+
+2013-2017
+
+    History Degree
+
+    Universidad de Las Palmas de Gran Canaria
+
+    Final degree project: Legados de Cultura Portuaria en Las Palmas de
     Gran Canaria. Propuesta de historia cultural: la figura del
-    cambullonero_, tutored by Daniel Castillo Hidalgo.
+    cambullonero, tutored by Dr. Daniel Castillo Hidalgo.
 
     Available in Acceda: http://hdl.handle.net/10553/25787
 
-2011-2013
-
-    HUMANITIES AT A LEVELS
-
-    IES Pérez Galdós
-
-2007-2011
-
-    COMPULSORY SECONDARY EDUCATION
-
-    IES El Rincón
-
-
 Experience
 
+2018
+    Coruja Digital - Autónomo
+
+actualmente
+    Director de proyectos Project management. We offered different
+    services related to information technologies, management,
+    communication and dissemination of cultural heritage, digital
+    humanities and open science.See also:
+    https://corujadigital.tech/clientes.html
+
 dec 2018
-    GARGOLA. GESTIÓN Y DIFUSIÓN CULTURAL
+    Gargola. Gestión y Difusión Cultural
     Assistan archivist Digitization and documentation of photographic
     heritage, and another types of artifacts, from the Historical
     photograph archive of the Canary Islands (Archivo de fotografía
@@ -56,7 +65,7 @@ dec 2018
     OaiStore.
 
 mar 2018
-    INSTITUTO DE ANÁLISIS Y APLICACIONES TEXTUALES (IATEXT)
+    Instituto de Análisis y Aplicaciones Textuales (IATEXT)
 
 sep 2018
 
@@ -82,7 +91,7 @@ sep 2018
         https://github.com/ivanhercaz/wikidata-iatext
 
 nov 2017
-    @RCHIVA-T
+    @rchiva-t
 
 dec 2017
 
@@ -92,7 +101,7 @@ dec 2017
     the Social Policy Service of the Cabildo de Gran Canaria.
 
 jan 2017
-    UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA
+    Universidad de Las Palmas de Gran Canaria
 
 aug 2017
 
@@ -103,43 +112,41 @@ aug 2017
 
 nov 2016
 
-    ASSOCIATION OF HISTORY, LITERATURE, SCIENCE AND TECHNOLOGY (AHLIST)
+    Association of History, Literature, Science and Technology (AHLiST)
 
     Staff member
 
     Staff member of AHLIST Congress 2016 Las Palmas de Gran Canaria:
     assistance to participants and assistants, and photography.
 
-
 Skills
 
-DATA
+Data
     Data curation, semantic web, structured and linked data, geodata,
     Wikidata, OpenStreetMap
 
-CONTENT MANAGEMENT SYSTEMS
+Content Management Systems
     MediaWiki, Semantic MediaWiki, Open Journal System, Omeka,
-    Wordpress, Drupal (basic), AbsysNet (basic), OaiStore
+    Wordpress, Drupal (basic), AbsysNet (basic)
 
-HUMANITIES
+Humanities
     Cultural, social and maritime history, digital humanities,
     interdisciplinary research, cultural heritage, dissemination
 
-LANGUAGES
+Languages
     Spanish (native), English (high), Portuguese (intermediate)
 
-PROGRAMMING AND MARKUP LANGUAGES
+Programming and markup languages
     HTML, CSS, Javascript (basic), Python, Bash (basic), SPARQL,
     Markdown, Wikitexto
 
-SOFTWARE
-    GIMP, Inkscape, RawTherapee, LibreOffice, QGIS, Git, G itHub
+Software
+    GIMP, Inkscape, RawTherapee, LibreOffice, QGIS, Git, GitHub
 
-OTHER SKILLS
+Other skills
     Communication and organization, photography, redaction, social
     media, free licenses (Creative Commons, ODbL, public domain, etc.)
     libres (Creative Commons, ODbL, dominio público, etc.)
-
 
 Publications
 
@@ -150,84 +157,78 @@ ORCID
     (2019). Wikidata, WikiCite y Scholia como herramientas para un
     corpus de datos bibliográficos enlazados. Curación y estructuración
     de la producción científica de los investigadores del IATEXT.
-    _Prisma.com_, 40, 78-87. Disponible en:
+    Prisma.com, 40, 78-87. Disponible en:
     http://hdl.handle.net/10553/60056
 -   Ojeda-de-la-Roza, R., Hernández-Cazorla, I (2017). Wikimedia España
-    y la difusión del patrimonio cultural. _Revista PH_, 91, 36-37.
+    y la difusión del patrimonio cultural. Revista PH, 91, 36-37.
     Disponible en: https://accedacris.ulpgc.es/handle/10553/57244
--   Hernández-Cazorla, I. (2017). _Legados de Cultura Portuaria en Las
+-   Hernández-Cazorla, I. (2017). Legados de Cultura Portuaria en Las
     Palmas de Gran Canaria. Propuesta de estudio de historia cultural:
-    la figura del cambullonero_ (trabajo de fin de grado tutorizado por
+    la figura del cambullonero (trabajo de fin de grado tutorizado por
     Daniel Castillo-Hidalgo). Universidad de Las Palmas de Gran Canaria,
     Las Palmas de Gran Canaria. Disponible en
     http://acceda.ulpgc.es/handle/10553/25787
 -   Castillo-Hidalgo, D., y Hernández-Cazorla, I (2016). 1956-2016. 60
     años de historia marítima regional (siglos XIX-XX). Un balance
-    historiográfico. _Coloquio de Historia Canario-Americana_, XXII,
-    1-13. Disponible en: http://hdl.handle.net/10553/25787
-
+    historiográfico. Coloquio de Historia Canario-Americana, XXII, 1-13.
+    Disponible en: http://hdl.handle.net/10553/25787
 
 Courses and certificates
 
 2017
 
-    _Inglés B1.2_
+    Inglés B1.2
 
     Aula de Idiomas of the Universidad de Las Palmas de Gran Canaria
 
 2016
 
-    _Taller de Sistema de Información Geográfica: Introducción a la
-    creación de cartografía básica_
+    Taller de Sistema de Información Geográfica: Introducción a la
+    creación de cartografía básica
 
     Liceus
 
-    _IX Curso de Historia de las Relaciones Internacionales: «Europa
-    tras el fin de la Guerra Fría»_
-
-    Casa-Museo León y Castillo
-
-2015
-
-    _VIII Curso de Historia de las Relaciones Internacionales: «La caída
-    del Muro: el fin del mundo bipolar»_
-
-    Casa-Museo León y Castillo
-
-2014
-
-    _VII Curso de Historia de las Relaciones Internacionales : «La
-    Primera Guerra Mundial: la hecatombe internacional»_
-
-    Casa-Museo León y Castillo
-
-    _VIII Seminario de Historia Antigua. Adivinación y Astrología en el
-    Mundo Antiguo_
-
-    Fundación Mapfre-Guanarteme
-
-2013
-
-    _Azúcar y Mecenazgo en Gran Canaria: El oro de las Islas, siglos
-    XV-XVI_
-
-    Casa de Colón
-
 2012
 
-    _Maquetador web - HTML y CSS_
+    Maquetador web - HTML y CSS
 
     EscuelaIT
 
-
 Voluntariado
 
-2015
-    WIKIMEDIA ESPAÑA
+2020
+    tldr-pages
 
 actualmente
 
-    Member.
+    Member
+
+    Preparation of documentation with brief and concise examples for
+    commands in different platforms (Linux, MacOS X, SunOS, Windows,
+    etc.). The goal of the project is to write documentation more
+    simplified and easier to read than the traditional man pages.
+
+2019
+    MakersGC
+
+actualmente
+
+    Colaborator
+
+    Colaboration in projects of the makers movement in Gran Canaria.
+    Participation and development of workshops. Promotion of the idea Do
+    It Yourself (DIY), making documentation and tutorials
+    (e.g. [https://github.com/makersGC/upython MicroPython documentation
+    in Spanish), and development of programs and applications
+    (e.g. [https://github.com/makersGC/morseinterpreter-micropython
+    morse interpreter] with MicroPython, tested with ESP32/ESP8266).
+
+2015
+    Wikimedia España
+
+actualmente
+
+    Member
 
     Collaboration in digitization projects and promoter of the free
     knowledge: activities in the Museum Castillo de Mata (e.g. the I
@@ -235,16 +236,14 @@ actualmente
     Universidad de La Laguna (e.g., the edit-a-thon in the day of the
     female writers), among other.
 
-
 Scholarship
 
 2017
 
-    WIKIMEDIA ESPAÑA-FUNDACIÓN WIKIMEDIA
+    Wikimedia España-Fundación Wikimedia
 
     Scholarship by Wikimedia España to attend to Wikimanía 2017
     Montreal, Canadá.
-
 
 Other information of interest
 
@@ -260,20 +259,27 @@ Other information of interest
 -   Interesting repositories in GitHub:
     -   CanaryBot, bot to work in the Wikimedia projects:
         https://github.com/ivanhercaz/CanaryBot
+    -   Buruma, theme based on Bulma CSS for Pelican:
+        https://github.com/ivanhercaz/buruma
     -   extractPliego, script to extract images and data from the
         website of auction house Pliego to upload them to Wikimedia
         Commons: https://github.com/ivanhercaz/extractPliego
-    -   Pysemanticmw, paquete e interfaz de línea de comandos para la
-        API de Semantic MediaWiki:
-        https://github.com/ivanhercaz/pysemanticmw
-    -   Research, repositorio en el que almaceno mis presentaciones,
-        documentos de divulgación y otros recursos:
-        https://github.com/ivanhercaz/research
+    -   morseinterpreter-micropython, program that interpret each letter
+        of a text in Morse. Works with leds:
+        https://github.com/makersGC/morseinterpreter-micropython
+    -   Coruja-Digital/corujadigital.tech, repository in which I manage
+        the website of Coruja Digital and resources made for different
+        projects: https://github.com/Coruja-Digital/corujadigital.tech
+    -   ivanhercaz.github.io, repository in which I manage my personal
+        website, my presentations, dissemination documents and another
+        resources: https://github.com/ivanhercaz/ivanhercaz.github.io
 
 ------------------------------------------------------------------------
 
   ivan@ivanhercaz.com | +34 681 638 290
+  corujadigital.tech
   ivanhercaz.com
+  linkedin.com/in/ivanhercaz
   Las Palmas de Gran Canaria
   0000-0002-5436-8535
 
