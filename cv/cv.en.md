@@ -38,10 +38,10 @@ Digital humanities and cultural heritage - Dissemination and research - Digital 
 ## Experience
 
 2018
-:     **Coruja Digital - Autónomo**
+:     **Coruja Digital - Freelance**
 
-actualmente
-:     Director de proyectos
+Currently
+:     Project Manager
       Project management. We offered different services related to information technologies, management, communication and dissemination of cultural heritage, digital humanities and open science.<br>See also: https://corujadigital.tech/clientes.html
 
 dec 2018
@@ -145,7 +145,7 @@ nov 2016
 2020
 :     **tldr-pages**
 
-actualmente
+Currently
 :     Member
 
       Preparation of documentation with brief and concise examples for commands in different platforms (Linux, MacOS X, SunOS, Windows, etc.). The goal of the project is to write documentation more simplified and easier to read than the traditional man pages.
@@ -153,7 +153,7 @@ actualmente
 2019
 :     **MakersGC**
 
-actualmente
+Currently
 :     Colaborator
 
       Colaboration in projects of the makers movement in Gran Canaria. Participation and development of workshops. Promotion of the idea *Do It Yourself* (DIY), making documentation and tutorials (e.g. [https://github.com/makersGC/upython MicroPython documentation in Spanish), and development of programs and applications (e.g. [https://github.com/makersGC/morseinterpreter-micropython morse interpreter] with MicroPython, tested with ESP32/ESP8266).
@@ -161,7 +161,7 @@ actualmente
 2015
 :     **Wikimedia España**
 
-actualmente
+Currently
 :     Member
 
       Collaboration in digitization projects and promoter of the free knowledge: activities in the Museum Castillo de Mata (e.g. the I Edit-a-thon about Canarian fortifications) and the Library of the Universidad de La Laguna (e.g., the edit-a-thon in the day of the female writers), among other.
