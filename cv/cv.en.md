@@ -9,9 +9,9 @@ lang: en
 | Las Palmas de Gran Canaria, Las Palmas | ivanhercaz.com  |
 
 <div style="text-align: center; margin-top: 20px">
-**Historian and interested in digital humanities**
+**Digital Humanist**
 
-I am interested in digital humanities and in cultural heritage, mainly in how the digital tools might improved the knowledge dissemination  and the research. I am pretty curious about the structured data, semantic and programming. My main research fields are the cultural and maritime history, as well as how the Wikimedia projects, specifically Wikidata, can contribute to improve the scientific knowledge and the study of the humanities and the cultural heritage.
+Digital humanities and cultural heritage - Dissemination and research - Digital tools - Linked Data, semantics and programming - Wikimedia Movement, Wikipedia, Wikidata and MediaWiki.
 </div>
 
 ## Education
