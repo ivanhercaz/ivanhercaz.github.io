@@ -21,6 +21,8 @@ Digital humanities and cultural heritage - Dissemination and research - Digital 
 
      Universidad de Las Palmas de Gran Canaria
 
+     Specialized in Cultural Heritage.
+
      Final master project: *Estado del conocimiento libre sobre el patrimonio cultural de Canarias en Wikipedia, Wikimedia Commons y Wikidata. Los Bienes de Interés Cultural de Canarias en los Proyectos Wikimedia*, tutored by Dr. Manuel Ramírez Sánchez.
 
      Pending to upload to Acceda.
@@ -42,12 +44,14 @@ Digital humanities and cultural heritage - Dissemination and research - Digital 
 
 Currently
 :     Project Manager
+
       Project management. We offered different services related to information technologies, management, communication and dissemination of cultural heritage, digital humanities and open science.<br>See also: https://corujadigital.tech/clientes.html
 
 dec 2018
 :     **Gargola. Gestión y Difusión Cultural**
 
 :     Assistan archivist
+
       Digitization and documentation of photographic heritage, and another types of artifacts, from the Historical photograph archive of the Canary Islands (Archivo de fotografía histórica de Canarias). The tasks we made involve equipment prepared for the digitization, scanners and computers in which we prepare the data sets. For the online digitization we used the software OaiStore.
 
 
