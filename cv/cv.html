@@ -5,11 +5,19 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Iván Hernández Cazorla</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style.css" />
   <!--[if lt IE 9]>
@@ -17,197 +25,421 @@
   <![endif]-->
 </head>
 <body>
-<header>
-<nav style='text-align: center'>Otros formatos: <a href='cv.pdf'>PDF</a>, <a href='cv.txt'>TXT</a></nav>
+<header id="title-block-header">
 <h1 class="title">Iván Hernández Cazorla</h1>
 </header>
 <table>
+<colgroup>
+<col style="width: 71%" />
+<col style="width: 28%" />
+</colgroup>
 <tbody>
 <tr class="odd">
 <td>+34 681 638 290</td>
-<td>ivan@ivanhercaz.com</td>
+<td>ivan@corujadigital.tech</td>
 </tr>
 <tr class="even">
-<td>Las Palmas de Gran Canaria, Las Palmas</td>
-<td>ivanhercaz.com</td>
+<td>Las Palmas de Gran Canaria<br>Las Palmas</td>
+<td>corujadigital.tech ivanhercaz.com blog.ivanhercaz.com</td>
 </tr>
 </tbody>
 </table>
 <div style="text-align: center; margin-top: 20px">
-<p><strong>Humanista digital</strong></p>
-<p>Humanidades digitales y patrimonio cultural - Divulgación e investigación - Herramientas digitales - Datos estructurados, semántica y programación - Movimiento Wikimedia, Wikipedia, Wikidata y MediaWiki.</p>
+<p><strong>Programador y humanista</strong></p>
+<p>Elixir, JavaScript y Python - IoT - Ciencia Abierta - Datos
+estructurados - Wiki - Humanidades Digitales</p>
 </div>
+<h2 id="experiencia">Experiencia</h2>
+<p>La experiencia que tengo la he desarrollado como consultor, gestor,
+desarrollador y mantenedor de proyectos tecnológicos como autónomo bajo
+la designación Coruja Digital. Algunos de estos proyectos, así como
+información sobre los mismos están en <a
+href="https://corujadigital.tech/clientes.html"
+class="uri">https://corujadigital.tech/clientes.html</a>.</p>
+<dl>
+<dt>2022-2023</dt>
+<dd>
+<p><strong>ASI Controls</strong></p>
+<p>Proyecto de sistema IoT distribuido</p>
+<p><em>Elixir</em>, <em>Phoenix</em>, <em>Nerves</em>, <em>MQTT</em>,
+<em>Raspberry</em></p>
+<p>Contribución al desarrollo de un sistema IoT distribuido instalado en
+edificios inteligentes de Estados Unidos.</p>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2021-2023</dt>
+<dd>
+<p><strong>Aquadat</strong></p>
+<p>Infraestructura de obtención, visualización y análisis de datos</p>
+<p><em>MQTT</em>, <em>Elixir</em>, <em>Prometheus</em>,
+<em>Grafana</em>, <em>Docker</em>, <em>Nginx</em></p>
+<p>Desarrollo de la infraestructura necesaria para la comunicación entre
+el sensor de una boya de medición de calidad de agua y un punto MQTT,
+comunicado con una aplicación en Elixir con la que se criba y convierte
+la información a un formato adecuado para enviarla a Prometheus y
+visualizarla con Grafana.</p>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2021-2023</dt>
+<dd>
+<p><strong>Roundcubers</strong></p>
+<p>Desarrollo de una aplicación y despliegue de instancias.</p>
+<p><em>Elixir</em>, <em>Phoenix</em>, <em>PostgreSQL</em>,
+<em>Tailwind</em>, <em>Docker</em>, <em>Nginx</em></p>
+<p>Desarrollo de la aplicación Autodiagnóstico, cuyo uso es conocer el
+estado de la transformación digital de las empresas a partir de
+formularios y análisis de los datos obtenidos.</p>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2021-2023</dt>
+<dd>
+<p><strong>EUROPARC España</strong></p>
+<p>Mantenimiento de servidores, instalación y desarrollo de MediaWiki, y
+gestión de la información</p>
+<p><em>MediaWiki</em>, <em>Semantic MediaWiki</em>, <em>PHP</em>,
+<em>Composer</em>, <em>JavaScript</em>, <em>Python</em>, <em>RDF</em>,
+<em>Docker</em>, <em>Nginx</em></p>
+<p>Además del mantenimiento general de los servidores y la wiki, en este
+proyecto se han ido estableciendo diferentes fases para cubrir sus
+necesidades y su crecimiento.</p>
+<ul>
+<li>Fase 1 (2021): actualización del antiguo proyecto (MediaWiki y
+copias de seguridad).</li>
+<li>Fase 2 (2021): configuración de la wiki semántica (Semantic
+MediaWiki), desarrollo de un nuevo modelo de datos para facilitar su
+visualización y explotación, e importación de fichas (contenido
+principal de la wiki).</li>
+<li>Fase 3 (2021): incorporación de nuevas fichas y estandarización de
+fichas antiguas.</li>
+<li>Fase 4 (2022): migración del proyecto a un servidor de Coruja
+Digital, con cambios en la infraestructura (dockerización del proyecto)
+con el objetivo de mejorar el soporte y el mantenimiento.</li>
+<li>Fase 5 (2022): incorporación de nuevas fichas y estandarización de
+fichas antiguas. Mejora del sistema de visualización multimedia, de la
+accesibilidad y de la navegación por la wiki.</li>
+</ul>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2021</dt>
+<dd>
+<p><strong>Aquadat</strong></p>
+<p>Desarrollo web</p>
+<p><em>Elixir</em>, <em>Phoenix</em></p>
+<p>Desarrollo de un sitio web estático para mostrar datos básicos sobre
+contaminación química en el agua.</p>
+</dd>
+<dt>2021</dt>
+<dd>
+<p><strong>Sieltec Canarias S. L.</strong></p>
+<p>Desarrollo en JavaScript</p>
+<p><em>JavaScript</em>, <em>JSON</em></p>
+<p>Desarrollo en JavaScript de un panel de visualización de datos en
+formato JSON para sensores meteorológicos.</p>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2020</dt>
+<dd>
+<p><strong>Casa África</strong></p>
+<p>Docencia sobre conocimiento libre</p>
+<p><em>Ecosistema Wikimedia</em></p>
+<p>Taller-Charla África en Wikipedia (Mes de África) (2020).
+Introducción a los proyectos Wikimedia en el contexto del primer mes de
+África en Wikipedia en español.</p>
+<ul>
+<li>Vídeo del taller: <a
+href="https://www.youtube.com/watch?v=faZ8Vhyh4Xw"
+class="uri">https://www.youtube.com/watch?v=faZ8Vhyh4Xw</a>.</li>
+<li>Publicación en Casa África: <a
+href="https://www.casafrica.es/es/evento/taller-line-africa-en-wikipedia"
+class="uri">https://www.casafrica.es/es/evento/taller-line-africa-en-wikipedia</a>.</li>
+</ul>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2020</dt>
+<dd>
+<p><strong>Asociación de Bibliotecarios/as y Documentalistas de
+Canarias</strong></p>
+<p>Docencia sobre conocimiento libre y datos abiertos</p>
+<p><em>Ecosistema Wikimedia</em></p>
+<p>Curso de introducción a Wikipedia, Wikimedia Commons y Wikidata
+(2020).</p>
+<ul>
+<li>Programa didáctico y material liberado: <a
+href="https://bydcanarias.es/introduccion-wikimedia/"
+class="uri">https://bydcanarias.es/introduccion-wikimedia/</a>.</li>
+</ul>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2020</dt>
+<dd>
+<p><strong>Instituto de Análisis y Aplicaciones Textuales
+(IATEXT)</strong></p>
+<p>Curación y análisis de datos y fomento de la ciencia abierta y el
+conocimiento libre</p>
+<p><em>Python</em>, <em>SPARQL</em>, <em>RDF</em></p>
+<p>Continuación del proyecto Wikidata-IATEXT (véase 2018).</p>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2020</dt>
+<dd>
+<p><strong>Servicio de Patrimonio Histórico del Cabildo Insular de Gran
+Canaria</strong></p>
+<p>Recopilación y organización de multimedia</p>
+<p><em>Python</em>, <em>CSV</em></p>
+<p>Desarrollo de un script en Python para recopilar y organizar
+multimedia en un documento CSV para su posterior incorporación masiva de
+la coleccón fotográfica del Paisaje Cultural Risco Caído y las Montañas
+Sagradas de Gran Canaria a la base de datos del sistema AtoM.</p>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt>2018</dt>
+<dd>
+<p><strong>Instituto de Análisis y Aplicaciones Textuales
+(IATEXT)</strong></p>
+<p>Curación y análisis de datos y fomento de la ciencia abierta y el
+conocimiento libre</p>
+<p><em>Python</em>, <em>SPARQL</em>, <em>RDF</em></p>
+<p>Proyecto propuesto al IATEXT de la Universidad de Las Palmas de Gran
+Canaria con el objetivo de completar la composición del instituto y la
+producción científica de sus miembros, siendo o no miembros de la
+institución, en Wikidata, el mayor repositorio de datos estructurados
+libres (dominio público). Se dividió en dos fases, una dedicada a los
+investigadores y otra a sus publicaciones (libros, obras coordinadas,
+actas, capítulos, artículos y ponencias). Para ambas fue necesario
+realizar un proceso de curación y estructuración de los datos para la
+elaboración de los elementos en Wikidata.</p>
+<ul>
+<li>Informe final (en inglés): <a
+href="https://www.wikidata.org/wiki/User:Iván_Hernández_Cazorla/IATEXT">https://www.wikidata.org/wiki/User:Iván_Hernández_Cazorla/IATEXT</a></li>
+<li>Informe final y repositorio (español): <a
+href="https://github.com/ivanhercaz/wikidata-iatext">https://github.com/ivanhercaz/wikidata-iatext</a></li>
+</ul>
+</dd>
+</dl>
 <h2 id="educación">Educación</h2>
 <dl>
 <dt>2019</dt>
-<dd><strong>Máster en Patrimonio Histórico, Cultural y Natural</strong>
+<dd>
+<strong>Máster en Patrimonio Histórico, Cultural y Natural</strong>
 </dd>
-<dt>actualmente</dt>
-<dd><p>Universidad de Las Palmas de Gran Canaria</p>
-<p>Rama de patrimonio cultural.</p>
+<dt>2020</dt>
+<dd>
+<p>Universidad de Las Palmas de Gran Canaria</p>
+<p>Trabajo de fin de máster sobre el estado cuantitativo y cualitativo
+del conocimiento libre referido al patrimonio cultural de Canarias en
+los proyectos Wikipedia, Wikimedia Commons y Wikidata.</p>
+<p>Para la investigación se desarrolló una aplicación en Python,
+<em>WikiCorpus</em>, con la que se obtuvo el conjunto de los datos para
+la investigación. Tras su obtención se analizaron en cuadernos de
+Kaggle.</p>
+<ul>
+<li>Trabajo de fin de máster: <a
+href="https://accedacris.ulpgc.es/handle/10553/104366"
+class="uri">https://accedacris.ulpgc.es/handle/10553/104366</a></li>
+<li>WikiCorpus: <a href="https://zenodo.org/record/4031240"
+class="uri">https://zenodo.org/record/4031240</a></li>
+<li>Corpus de datos de los Bienes de Interés Cultural de Canarias en los
+proyectos Wikimedia: <a href="https://zenodo.org/record/4009558"
+class="uri">https://zenodo.org/record/4009558</a></li>
+<li>Cuaderno 01. Wikipedia en español: <a
+href="https://www.kaggle.com/code/ivanhercaz/cuaderno-01-wikipedia-en-espa-ol"
+class="uri">https://www.kaggle.com/code/ivanhercaz/cuaderno-01-wikipedia-en-espa-ol</a></li>
+<li>Cuaderno 02. Wikimedia Commons: <a
+href="https://www.kaggle.com/code/ivanhercaz/cuaderno-02-wikimedia-commons"
+class="uri">https://www.kaggle.com/code/ivanhercaz/cuaderno-02-wikimedia-commons</a></li>
+<li>Cuaderno 03. Wikidata: <a
+href="https://www.kaggle.com/code/ivanhercaz/cuaderno-03-wikidata"
+class="uri">https://www.kaggle.com/code/ivanhercaz/cuaderno-03-wikidata</a></li>
+</ul>
+<div style="margin-bottom: 15px">
+
+</div>
 </dd>
 <dt>2013-2017</dt>
-<dd><p><strong>Grado en Historia</strong></p>
+<dd>
+<p><strong>Grado en Historia</strong></p>
 <p>Universidad de Las Palmas de Gran Canaria</p>
-<p>Trabajo de fin de grado: <em>Legados de Cultura Portuaria en Las Palmas de Gran Canaria. Propuesta de historia cultural: la figura del cambullonero</em>, tutorizado por Daniel Castillo Hidalgo.</p>
-<p>Disponible en Acceda: <a href="http://hdl.handle.net/10553/25787" class="uri">http://hdl.handle.net/10553/25787</a></p>
-</dd>
-</dl>
-<h2 id="experiencia">Experiencia</h2>
-<dl>
-<dt>2018</dt>
-<dd><strong>Coruja Digital · Autónomo</strong>
-</dd>
-<dd><p>Director de proyectos</p>
-<p>Dirección de proyectos. Se ofrecen diferentes servicios relacionados con las tecnologías de la información, la gestión, la comunicación y la difusión del patrimonio cultural, las humanidades digitales y la ciencia abierta.<br>Véase <a href="https://corujadigital.tech/clientes.html" class="uri">https://corujadigital.tech/clientes.html</a>.</p>
-</dd>
-<dt>dic 2018</dt>
-<dd><strong>Gargola. Gestión y Difusión Cultural</strong>
-</dd>
-<dd><p>Auxiliar de archivo</p>
-<p>Digitalización y documentación de fotografías, y otros tipos de artefactos, del Archivo de fotografía histórica de Canarias. Las tareas se realizaban con equipos fotográficos preparados para la digitalización, escáneres y ordenadores en los que preparábamos los conjuntos de datos. Para la digitalización en línea utilizábamos el software OaiStore.</p>
-</dd>
-<dt>mar 2018</dt>
-<dd><strong>Instituto de Análisis y Aplicaciones Textuales (IATEXT)</strong>
-</dd>
-<dt>sep 2018</dt>
-<dd><p>Curador de datos</p>
-<p>Proyecto propuesto al IATEXT con el objetivo de completar la composición del instituto y la producción científica de sus miembros, siendo o no miembros de la institución, en Wikidata, el mayor repositorio de datos estructurados libres (dominio público). Se dividió en dos fases, una dedicada a los investigadores y otra a sus publicaciones (libros, obras coordinadas, actas, capítulos, artículos y ponencias). Para ambas fue necesario realizar un proceso de curación y estructuración de los datos para la elaboración de los elementos en Wikidata.</p>
-<ul>
-<li>Informe final (en inglés): <a href="https://www.wikidata.org/wiki/User:Iván_Hernández_Cazorla/IATEXT" class="uri">https://www.wikidata.org/wiki/User:Iván_Hernández_Cazorla/IATEXT</a></li>
-<li>Informe final y repositorio (español): <a href="https://github.com/ivanhercaz/wikidata-iatext" class="uri">https://github.com/ivanhercaz/wikidata-iatext</a></li>
-</ul>
-</dd>
-<dt>nov 2017</dt>
-<dd><strong><span class="citation" data-cites="rchiva-t">@rchiva-t</span></strong>
-</dd>
-<dt>dic 2017</dt>
-<dd><p>Auxiliar de archivo</p>
-<p>Desarrollo del proyecto «Sistematización de transferencias de archivo» para el Servicio de Política Social del Cabildo de Gran Canaria.</p>
-</dd>
-<dt>ene 2017</dt>
-<dd><strong>Universidad de Las Palmas de Gran Canaria</strong>
-</dd>
-<dt>agosto 2017</dt>
-<dd><p>Becario de colaboración</p>
-<p>En la sucursal de Humanidades de la Biblioteca de la Universidad de Las Palmas de Gran Canaria. Atención a los estudiantes, préstamo de libros, gestión del catálogo (AbsysNet), mantenimiento interno de la biblioteca (expurgos, organización, etc.) y otras tareas auxiliares.</p>
-</dd>
-<dt>nov 2016</dt>
-<dd><p><strong>Association of History, Literature, Science and Technology (AHLiST)</strong></p>
-<p>Miembro del equipo</p>
-<p>Miembro del comité organizativo del AHLIST Congress 2016 Las Palmas de Gran Canaria: labores de asistencia a los participantes y asistentes, y cobertura fotográfica.</p>
+<p>Trabajo de fin de grado: <em>Legados de Cultura Portuaria en Las
+Palmas de Gran Canaria. Propuesta de historia cultural: la figura del
+cambullonero</em>, tutorizado por Daniel Castillo Hidalgo.</p>
+<p>Disponible en Acceda: <a
+href="http://hdl.handle.net/10553/25787">http://hdl.handle.net/10553/25787</a></p>
 </dd>
 </dl>
 <h2 id="becas">Becas</h2>
 <dl>
 <dt>2017</dt>
-<dd><p><strong>Wikimedia España-Fundación Wikimedia</strong></p>
-<p>Becado por Wikimedia España para asistir a Wikimanía 2017 Montreal, Canadá.</p>
+<dd>
+<p><strong>Wikimedia España-Fundación Wikimedia</strong></p>
+<p>Becado por Wikimedia España para asistir a Wikimanía 2017 Montreal,
+Canadá.</p>
 </dd>
 </dl>
 <h2 id="habilidades">Habilidades</h2>
 <dl>
-<dt><strong>Datos</strong></dt>
-<dd>Curación de datos, web semántica, datos estructurados y enlazados, geodatos, Wikidata, OpenStreetMap.
+<dt><strong>Programación</strong></dt>
+<dd>
+<p>Elixir, Javascript, Python.</p>
+<div style="margin-bottom: 15px">
+
+</div>
 </dd>
-<dt><strong>Gestores</strong></dt>
-<dd>MediaWiki, Semantic MediaWiki, Open Journal System, Omeka, Wordpress, Drupal (básico), AbsysNet (básico)
-</dd>
-<dt><strong>Humanidades</strong></dt>
-<dd>Historia cultural, social y marítima, humanidades digitales, interdisciplinariedad, patrimonio cultural, divulgación
-</dd>
-<dt><strong>Idiomas</strong></dt>
-<dd>Inglés (alto), portugués (intermedio)
-</dd>
-<dt><strong>Lenguajes</strong></dt>
-<dd>HTML, CSS, Javascript (básico), Python, Bash (básico), SPARQL, Markdown, Wikitexto
+<dt><strong>Bases de datos</strong></dt>
+<dd>
+<p>PostgreSQL, MySQL/MariaDB, SQLite, bases de datos orientadas a
+grafos, SPARQL.</p>
+<div style="margin-bottom: 15px">
+
+</div>
 </dd>
 <dt><strong>Software</strong></dt>
-<dd>GIMP, Inkscape, RawTherapee, LibreOffice, QGIS, Git y GitHub
+<dd>
+<p>Git, Docker, Nginx.</p>
+<div style="margin-bottom: 15px">
+
+</div>
 </dd>
-<dt><strong>Otras habilidades</strong></dt>
-<dd>Comunicativa y organizativa, fotografía, redacción, <em>social media</em>, licencias libres (Creative Commons, ODbL, dominio público, etc.)
+<dt><strong>Datos</strong></dt>
+<dd>
+<p>Curación de datos, web semántica, datos estructurados y enlazados,
+geodatos, Wikidata, OpenStreetMap.</p>
+<div style="margin-bottom: 15px">
+
+</div>
+</dd>
+<dt><strong>Idiomas</strong></dt>
+<dd>
+Español, inglés, portugués.
+</dd>
+<dt><strong>Otras</strong></dt>
+<dd>
+Google Colab, Kaggle.
 </dd>
 </dl>
 <h2 id="publicaciones">Publicaciones</h2>
 <dl>
 <dt><strong>ORCID</strong></dt>
-<dd><a href="https://orcid.org/0000-0002-5436-8535">0000-0002-5436-8535</a>
+<dd>
+<a href="https://orcid.org/0000-0002-5436-8535">0000-0002-5436-8535</a>
 </dd>
 </dl>
 <ul>
-<li>Hernández-Cazorla, I., Ramírez-Sánchez, M., Rodríguez-Herrera, G (2019). Wikidata, WikiCite y Scholia como herramientas para un corpus de datos bibliográficos enlazados. Curación y estructuración de la producción científica de los investigadores del IATEXT. <em>Prisma.com</em>, 40, 78-87. Disponible en: <a href="http://hdl.handle.net/10553/60056" class="uri">http://hdl.handle.net/10553/60056</a></li>
-<li>Ojeda-de-la-Roza, R., Hernández-Cazorla, I (2017). Wikimedia España y la difusión del patrimonio cultural. <em>Revista PH</em>, 91, 36-37. Disponible en: <a href="https://accedacris.ulpgc.es/handle/10553/57244" class="uri">https://accedacris.ulpgc.es/handle/10553/57244</a></li>
-<li>Hernández-Cazorla, I. (2017). <em>Legados de Cultura Portuaria en Las Palmas de Gran Canaria. Propuesta de estudio de historia cultural: la figura del cambullonero</em> (trabajo de fin de grado tutorizado por Daniel Castillo-Hidalgo). Universidad de Las Palmas de Gran Canaria, Las Palmas de Gran Canaria. Disponible en <a href="http://acceda.ulpgc.es/handle/10553/25787" class="uri">http://acceda.ulpgc.es/handle/10553/25787</a></li>
-<li>Castillo-Hidalgo, D., y Hernández-Cazorla, I (2016). 1956-2016. 60 años de historia marítima regional (siglos XIX-XX). Un balance historiográfico. <em>Coloquio de Historia Canario-Americana</em>, XXII, 1-13. Disponible en: <a href="http://hdl.handle.net/10553/25787" class="uri">http://hdl.handle.net/10553/25787</a></li>
+<li>Hernández-Cazorla, I., Ramírez-Sánchez, M., Rodríguez-Herrera, G
+(2019). Wikidata, WikiCite y Scholia como herramientas para un corpus de
+datos bibliográficos enlazados. Curación y estructuración de la
+producción científica de los investigadores del IATEXT.
+<em>Prisma.com</em>, 40, 78-87. Disponible en: <a
+href="http://hdl.handle.net/10553/60056">http://hdl.handle.net/10553/60056</a></li>
+<li>Ojeda-de-la-Roza, R., Hernández-Cazorla, I (2017). Wikimedia España
+y la difusión del patrimonio cultural. <em>Revista PH</em>, 91, 36-37.
+Disponible en: <a
+href="https://accedacris.ulpgc.es/handle/10553/57244">https://accedacris.ulpgc.es/handle/10553/57244</a></li>
+<li>Hernández-Cazorla, I. (2017). <em>Legados de Cultura Portuaria en
+Las Palmas de Gran Canaria. Propuesta de estudio de historia cultural:
+la figura del cambullonero</em> (trabajo de fin de grado tutorizado por
+Daniel Castillo-Hidalgo). Universidad de Las Palmas de Gran Canaria, Las
+Palmas de Gran Canaria. Disponible en <a
+href="http://acceda.ulpgc.es/handle/10553/25787">http://acceda.ulpgc.es/handle/10553/25787</a></li>
+<li>Castillo-Hidalgo, D., y Hernández-Cazorla, I (2016). 1956-2016. 60
+años de historia marítima regional (siglos XIX-XX). Un balance
+historiográfico. <em>Coloquio de Historia Canario-Americana</em>, XXII,
+1-13. Disponible en: <a
+href="http://hdl.handle.net/10553/25787">http://hdl.handle.net/10553/25787</a></li>
 </ul>
 <h2 id="cursos-y-certificados">Cursos y certificados</h2>
 <dl>
+<dt>2021</dt>
+<dd>
+<p><em>Elixir &amp; OTP</em></p>
+<p>The Pragmatic Studio</p>
+</dd>
+<dt>2021</dt>
+<dd>
+<p><em>Phoenix LiveView</em></p>
+<p>The Pragmatic Studio</p>
+</dd>
 <dt>2017</dt>
-<dd><p><em>Inglés B1.2</em></p>
+<dd>
+<p><em>Inglés B1.2</em></p>
 <p>Aula de Idiomas de la Universidad de Las Palmas de Gran Canaria</p>
 </dd>
 <dt>2016</dt>
-<dd><p><em>Taller de Sistema de Información Geográfica: Introducción a la creación de cartografía básica</em></p>
+<dd>
+<p><em>Taller de Sistema de Información Geográfica: Introducción a la
+creación de cartografía básica</em></p>
 <p>Liceus</p>
 </dd>
 <dt>2012</dt>
-<dd><p><em>Maquetador web - HTML y CSS</em></p>
+<dd>
+<p><em>Maquetador web - HTML y CSS</em></p>
 <p>EscuelaIT</p>
-</dd>
-</dl>
-<h2 id="voluntariado">Voluntariado</h2>
-<dl>
-<dt>2020</dt>
-<dd><strong>tldr-pages</strong>
-</dd>
-<dt>actualmente</dt>
-<dd><p>Miembro</p>
-<p>Elaboración de documentación con ejemplos breve y concisa para comandos de diferentes plataforma (Linux, MacOS X, SunOS, Windows, multiplataforma, etcétera). El objetivo del proyecto es redactar páginas que simplifiquen las <a href="https://en.wikipedia.org/wiki/Man_page"><em>man pages</em></a> (páginas de manual de comandos) tradicionales y sean más fáciles de leer.</p>
-</dd>
-<dt>2019</dt>
-<dd><strong>MakersGC</strong>
-</dd>
-<dt>actualmente</dt>
-<dd><p>Colaborador</p>
-<p>Colaboración en proyectos del movimiento maker de Gran Canaria. Participación y desarrollo de talleres. Fomento de la cultura <em>hazlo tú mismo</em> (DIY, <em>do it yourself</em>), elaboración de documentación y tutoriales (por ej., <a href="https://github.com/makersGC/upython">documentación en español de MicroPython</a>, y elaboración de programas y aplicaciones (por ej., <a href="https://github.com/makersGC/morseinterpreter-micropython">interpretador morse</a> elaborado con MicroPython y probado en placas ESP32/ESP8266).</p>
-</dd>
-<dt>2015</dt>
-<dd><strong>Wikimedia España</strong>
-</dd>
-<dt>actualmente</dt>
-<dd><p>Miembro</p>
-<p>Colaboración en proyectos de digitalización y de fomento del conocimiento libre; colaboración con el Museo Castillo de Mata (por ej., la I editatón de fortificaciones canarias) y la Biblioteca de la Universidad de La Laguna (por ej., la editatón por el día de las escritoras), entre otras colaboraciones.</p>
 </dd>
 </dl>
 <h2 id="otros-datos-de-interés">Otros datos de interés</h2>
 <ul>
-<li>Contribuidor habitual en los proyectos del Movimiento Wikimedia. Principalmente en:
+<li>Colaborador en los proyectos del Movimiento Wikimedia.
+Principalmente en:
 <ul>
 <li>Wikidata, Wikipedia en español y Wikimedia Commons.</li>
 </ul></li>
-<li>Traductor de software y proyectos libres, ya sea en TranslateWiki.net, en repositorios de GitHub o en el proyecto en sí mismo. Por ejemplo:
+<li>Traductor de software y proyectos libres, ya sea en
+TranslateWiki.net, en repositorios de GitHub o en el proyecto en sí
+mismo. Por ejemplo:
 <ul>
-<li>Semantic MediaWiki: <a href="https://semantic-mediawiki.org" class="uri">https://semantic-mediawiki.org</a></li>
-<li>Generador de Atribución (Lizenzhinweisgenerator): <a href="https://generadordeatribucion.org/" class="uri">https://generadordeatribucion.org/</a></li>
-<li>Wikidata: <a href="https://wikidata.org">https://wikidata.org/</a></li>
+<li>Semantic MediaWiki: <a
+href="https://semantic-mediawiki.org">https://semantic-mediawiki.org</a></li>
+<li>Generador de Atribución (Lizenzhinweisgenerator): <a
+href="https://generadordeatribucion.org/">https://generadordeatribucion.org/</a></li>
+<li>Wikidata: <a
+href="https://wikidata.org">https://wikidata.org/</a></li>
 </ul></li>
-<li>Repositorios interesantes en GitHub:
+<li>Repositorios interesantes:
 <ul>
-<li>CanaryBot, bot para los proyectos Wikimedia: <a href="https://github.com/ivanhercaz/CanaryBot" class="uri">https://github.com/ivanhercaz/CanaryBot</a></li>
-<li>Buruma, tema que funciona a partir del framework Bulma CSS, diseñado para el gestor de contenidos Pelican: <a href="https://github.com/ivanhercaz/buruma" class="uri">https://github.com/ivanhercaz/buruma</a></li>
-<li>extractPliego, script para extraer imágenes y datos del sitio web de la casa de subastas Pliego para subirlas a Wikimedia Commons: <a href="https://github.com/ivanhercaz/extractPliego" class="uri">https://github.com/ivanhercaz/extractPliego</a></li>
-<li>morseinterpreter-micropython, programa que interpreta cada letra de un texto en sus respectivas pulsaciones en morse. Funciona a partir de leds: <a href="https://github.com/makersGC/morseinterpreter-micropython" class="uri">https://github.com/makersGC/morseinterpreter-micropython</a></li>
-<li>ivanhercaz.github.io, repositorio en el que gestiono mi sitio web personal, así como mis presentaciones, documentos de divulgación y otros recursos: <a href="https://github.com/ivanhercaz/ivanhercaz.github.io" class="uri">https://github.com/ivanhercaz/ivanhercaz.github.io</a></li>
+<li>extldr, cliente en Elixir para las tldr pages: [ - Buruma, tema que
+funciona a partir del framework Bulma CSS, diseñado para el gestor de
+contenidos Pelican: <a
+href="https://github.com/tldr-pages/extldr">https://github.com/tldr-pages/extldr</a></li>
+<li>CanaryBot, bot para los proyectos Wikimedia: <a
+href="https://github.com/ivanhercaz/CanaryBot">https://github.com/ivanhercaz/CanaryBot</a></li>
+<li>morseinterpreter-micropython, programa que interpreta cada letra de
+un texto en sus respectivas pulsaciones en morse. Funciona a partir de
+leds: <a
+href="https://github.com/makersGC/morseinterpreter-micropython">https://github.com/makersGC/morseinterpreter-micropython</a></li>
+<li>ivanhercaz.github.io, repositorio en el que gestiono mi sitio web
+personal, así como mis presentaciones, documentos de divulgación y otros
+recursos: <a
+href="https://github.com/ivanhercaz/ivanhercaz.github.io">https://github.com/ivanhercaz/ivanhercaz.github.io</a></li>
 </ul></li>
 </ul>
 <hr />
 <blockquote>
 <p>ivan@ivanhercaz.com | +34 681 638 290<br />
-<a href="https://ivanhercaz.com">ivanhercaz.com</a><br />
-<a href="https://www.linkedin.com/in/ivanhercaz">linkedin.com/in/ivanhercaz</a><br />
+<a href="https://corujadigital.tech">corujadigital.tech</a> | <a
+href="blog.ivanhercaz.com">blog</a> | <a
+href="https://ivanhercaz.com">ivanhercaz.com</a><br />
+<a
+href="https://www.linkedin.com/in/ivanhercaz">linkedin.com/in/ivanhercaz</a><br />
 Las Palmas de Gran Canaria<br />
-<a href="https://orcid.org/0000-0002-5436-8535">0000-0002-5436-8535</a></p>
+<a
+href="https://orcid.org/0000-0002-5436-8535">0000-0002-5436-8535</a></p>
 </blockquote>
 <hr />
 </body>
