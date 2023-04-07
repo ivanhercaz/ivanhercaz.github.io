@@ -22,18 +22,6 @@ proyectos, así como información sobre los mismos están en <https://corujadigi
 
 
 
-2022-2023
-:     **ASI Controls**
-
-      Proyecto de sistema IoT distribuido
-
-      _Elixir_, _Phoenix_, _Nerves_, _MQTT_, _Raspberry_
-
-      Contribución al desarrollo de un sistema IoT distribuido instalado en edificios inteligentes
-      de Estados Unidos.
-
-      <div style="margin-bottom: 15px"></div>
-
 2021-2023
 :     **Aquadat**
 

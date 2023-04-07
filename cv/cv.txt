@@ -22,17 +22,6 @@ la designación Coruja Digital. Algunos de estos proyectos, así como
 información sobre los mismos están en
 https://corujadigital.tech/clientes.html.
 
-2022-2023
-
-    ASI Controls
-
-    Proyecto de sistema IoT distribuido
-
-    Elixir, Phoenix, Nerves, MQTT, Raspberry
-
-    Contribución al desarrollo de un sistema IoT distribuido instalado
-    en edificios inteligentes de Estados Unidos.
-
 2021-2023
 
     Aquadat
